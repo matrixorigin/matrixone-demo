@@ -1,18 +1,42 @@
-# MatrixOne SmartCity Showcase
+# SmartCity Showcase
 
-This project takes MatrixOne open source distributed HSTAP database and open source streaming distributed storage Pravega as the core to build an end-to-end smart city digital system, including video acquisition, transmission, model reasoning, data cleaning, storage, analysis, visualization and other functional modules. On the basis of system implementation, BLOB data types are implemented for MatrixOne to enrich the data types supported by MatrixOne.
+This project builds an end-to-end smart city digital system based on open-source distributed HSTAP database MatrixOne and open-source streaming distributed storage Pravega.
 
-It mainly includes the following functional modules:
+Contents
+========
+
+* [System Architecture](#system-architecture)
+* [Components](#components)
+* [Requirements](#requirements)
+* [Contrubutors](#contributors)
+
+
+## System Architecture
+![architecture](/SmartCity/images/architecture.jpg)
+
+## Components 
+
+Followings are the fundamental components in our system:
 
 + camera
 
 + persistent stream storage Pravega
 
-   + Pravega introduction
++ video reasoning module
 
-   Rebuild new storage for streaming computing
++ high performance database MatrixOne
 
-   Pravega provides a new storage abstraction stream for continuous and unbounded data. It is a persistent, elastic, append only and unlimited byte sequence with good performance and strong consistency.
++ visual WebUI
+
+## Requirements
+### MatrixOne
+[MatrixOne](https://github.com/matrixorigin/matrixone) is a future-oriented hyper-converged cloud & edge native DBMS that supports transactional, analytical, and streaming workloads with a simplified and distributed database engine, across multiple data centers, clouds, edges and other heterogeneous infrastructures.
+#### Key Features
+- Hyperconverged Engine: MatrixOne supports hybrid workloads by a monolithic database engine: transactional, analytical, time-series, machine learning, - etc. MatrixOne also supports in-database streaming processing with a built-in streaming engine.
+- Cloud & Edge Native: MatrixOne is real infrastructure agnostic, it supports seamless workload migration and bursting among different locations and infrastructures, as well as multi-site active-active with industry-leading latency control.
+- Extreme Performance: MatrixOne supports blazing-fast queries on vast datasets while guaranteeing strong consistency and high scalability.
+### Pravega
+[Pravega](https://github.com/pravega/pravega) provides a new storage abstraction stream for continuous and unbounded data. It is a persistent, elastic, append only and unlimited byte sequence with good performance and strong consistency.
 
    Using Pravega, you can capture real-time data streams for analysis. Today, real-time streaming is everywhere. Data from mobile phones, social media streams, videos, sensors, drones, etc. is continuous and unlimited ("real-time streaming").
 
@@ -30,12 +54,24 @@ It mainly includes the following functional modules:
 
       + for data application and visualization, use JDBC to synchronize AI result data to matrixone to complete the transmission of the last value link of data. Matrixone can provide complex data organization and integration capabilities and display them in a visual way.
 
-+ video reasoning module
+## Contributors
+<!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/sukki37">
+            <img src="https://avatars.githubusercontent.com/u/77312370?v=4" width="30;" alt="sukki37"/>
+            <br />
+            <sub><b>Maomao</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/BUPT-NingXinyu">
+            <img src="https://avatars.githubusercontent.com/u/44694099?v=4" width="30;" alt="BUPT-NingXinyu"/>
+            <br />
+            <sub><b>Xinyu Ning</b></sub>
+        </a>
+    </td></tr>
+</table>
+<!-- readme: contributors -end -->
 
-+ high performance database MatrixOne
-
-+ visual WebUI
-
-The overall architecture is shown in the figure below:
-
-![architecture](/SmartCity/images/architecture.jpg)
