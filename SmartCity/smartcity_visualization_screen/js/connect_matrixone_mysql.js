@@ -1,9 +1,9 @@
 // 引入MySQL 报错可尝试：
-```
-1.首先 必须下载node.js 有node环境
 
-2.在你所选文件夹终端中执行 npm install mysql安装MySQL模块
-```
+//1.首先 必须下载node.js 有node环境
+
+//2.在你所选文件夹终端中执行 npm install mysql安装MySQL模块
+
 var mysql  = require('mysql');
  
 var connection = mysql.createConnection({
