@@ -6,6 +6,7 @@
 ========
 
 * [MatrixOne安装及启动MySQL服务](#matrixone安装及启动mysql服务)
+* [nodejs安装以完成前后端交互](#nodejs安装以完成前后端交互)
 
 ## MatrixOne安装及启动MySQL服务
 ### MatrixOne安装
@@ -56,3 +57,28 @@ Enter password:
 ```
 
 更多使用详情查看：https://github.com/matrixorigin/matrixone
+
+## nodejs安装以完成前后端交互
+
+本案例通过nodejs完成前后端交互。js脚本文件分为client端和server端。client端对应前端页面，通过html页面运行；server部署于服务器端，用于在连接服务器上部署的matrixone MySQL数据库。
+
+### 1. 安装nondejs
+
+此操作在服务器端进行。
+
+```
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
+
+### 2. 服务器端
+
+服务器端代码对应 ./js/connect_matrixone_mysql_server.js
+
+在服务器端新建文件夹放置该代码，进入文件夹。
+
+安装express模块。
+
+```
+npm install express
+```
