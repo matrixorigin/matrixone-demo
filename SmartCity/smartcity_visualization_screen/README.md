@@ -77,8 +77,15 @@ sudo apt-get install npm
 
 在服务器端新建文件夹放置该代码，进入文件夹。
 
-安装express模块。
+安装所需模块。
 
 ```
 npm install express
+npm install mysql
 ```
+
+### 3. 客户端：
+
+客户端代码对应 ./js/connect_matrixone_mysql_client.js
+
+使用时需修改服务器ip地址为部署的服务端地址。
