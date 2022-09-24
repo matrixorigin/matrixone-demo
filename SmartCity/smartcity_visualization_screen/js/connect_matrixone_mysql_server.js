@@ -29,8 +29,8 @@ ap_p.get('/falldown',function(req,res){           //配置接口api
       port: '6001',                   
       database: 'park' 
     }); 
-    connection.connect();
-    var  sql = 'SELECT * FROM falldown';
+     connection.connect();
+    var  sql = 'SELECT * FROM falldown ORDER BY `time` DESC';
     connection.query(sql,function (err, result) {
             if(err){
               console.log('[SELECT ERROR] - ',err.message);
