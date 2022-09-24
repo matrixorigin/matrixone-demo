@@ -1,3 +1,6 @@
+//后端传回的数据
+//falldowndata
+
 // 车辆监测模块
 // 柱状图2
 (function () {
