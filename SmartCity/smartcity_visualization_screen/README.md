@@ -34,6 +34,11 @@ make build
 ./mo-server system_vars_config.toml
 ```
 
+(开发版本使用)
+```
+./mo-service -cfg ./etc/cn-standalone-test.toml
+```
+
 ### 连接到MatrixOne服务
 
 1. 安装MySQL客户端。
