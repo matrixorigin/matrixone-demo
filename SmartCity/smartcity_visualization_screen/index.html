@@ -108,6 +108,7 @@
             <!-- 人员数据分析模块 -->
             <div class="map line">
                 <h1>智慧园区人流量监控模块</h1>
+                <img id="center_outimg" src="" style="width: 94%; top:12%; position: absolute; z-index:9999;" onclick="this.src=''"/>
                 <div class="map1"></div>
                 <div class="map2"></div>
                 <div class="map3"></div>
@@ -121,9 +122,9 @@
                 <div class="warning">
                     <div class="warning-hd">
                         <ul>
-                            <li>正常</li>
-                            <li>正常</li>
-                            <li>正常</li>
+                            <li id="smoke">正常</li>
+                            <li id="fire">正常</li>
+                            <li id="well">正常</li>
                         </ul>
                     </div>
                     <div class="warning-bd">
@@ -153,7 +154,7 @@
                     </div>
                 </div>
                 <!-- <div>危险动作告警</div> -->
-                <div class="chart"></div>
+                <div id="hat" class="chart"></div>
                 <div class="panel-footer"></div>
             </div>
             <div class="panel pie2">
