@@ -1,0 +1,1238 @@
+2021-09-22 16:01:58,427 -  dataset_train_fire:4455
+2021-09-22 16:01:58,428 -  dataset_train_smoke: 4264
+2021-09-22 16:01:58,428 -  dataset_val_fire:827
+2021-09-22 16:01:58,428 -  dataset_val_smoke:791
+2021-09-22 16:02:00,820 -  
+***************** Begin Training *****************
+2021-09-22 16:02:00,820 -  Train from pretrained b0
+2021-09-22 16:02:44,211 -  dataset_train_fire:4455
+2021-09-22 16:02:44,211 -  dataset_train_smoke: 4264
+2021-09-22 16:02:44,212 -  dataset_val_fire:827
+2021-09-22 16:02:44,212 -  dataset_val_smoke:791
+2021-09-22 16:02:46,518 -  
+***************** Begin Training *****************
+2021-09-22 16:02:46,518 -  Train from pretrained b0
+2021-09-22 16:02:58,760 -  
+Epoch: 1/50	Training Loss(fire) 0.6837 (0.6759)	
+2021-09-22 16:02:58,788 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_1_fire.pth
+2021-09-22 16:02:59,813 -  在验证集上预测fire的ACC是0.6953
+2021-09-22 16:03:00,861 -  在验证集上预测smoke的ACC是0.4943
+2021-09-22 16:03:12,080 -  
+Epoch: 1/50	Training Loss(smoke) 0.6825 (0.6846)	
+2021-09-22 16:03:12,104 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_1_smoke.pth
+2021-09-22 16:03:13,168 -  在验证集上预测fire的ACC是0.6953
+2021-09-22 16:03:14,264 -  在验证集上预测smoke的ACC是0.6144
+2021-09-22 16:03:26,098 -  
+Epoch: 2/50	Training Loss(fire) 0.6125 (0.6449)	
+2021-09-22 16:03:26,126 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_2_fire.pth
+2021-09-22 16:03:27,171 -  在验证集上预测fire的ACC是0.8053
+2021-09-22 16:03:28,213 -  在验证集上预测smoke的ACC是0.6435
+2021-09-22 16:03:39,573 -  
+Epoch: 2/50	Training Loss(smoke) 0.6881 (0.6570)	
+2021-09-22 16:03:39,597 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_2_smoke.pth
+2021-09-22 16:03:40,645 -  在验证集上预测fire的ACC是0.7932
+2021-09-22 16:03:41,774 -  在验证集上预测smoke的ACC是0.7307
+2021-09-22 16:03:53,575 -  
+Epoch: 3/50	Training Loss(fire) 0.5995 (0.6182)	
+2021-09-22 16:03:53,601 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_3_fire.pth
+2021-09-22 16:03:54,635 -  在验证集上预测fire的ACC是0.8597
+2021-09-22 16:03:55,698 -  在验证集上预测smoke的ACC是0.7320
+2021-09-22 16:04:07,051 -  
+Epoch: 3/50	Training Loss(smoke) 0.6434 (0.6288)	
+2021-09-22 16:04:07,075 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_3_smoke.pth
+2021-09-22 16:04:08,087 -  在验证集上预测fire的ACC是0.8416
+2021-09-22 16:04:09,182 -  在验证集上预测smoke的ACC是0.7889
+2021-09-22 16:04:20,978 -  
+Epoch: 4/50	Training Loss(fire) 0.6083 (0.5882)	
+2021-09-22 16:04:21,003 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_4_fire.pth
+2021-09-22 16:04:22,063 -  在验证集上预测fire的ACC是0.8948
+2021-09-22 16:04:23,195 -  在验证集上预测smoke的ACC是0.7901
+2021-09-22 16:04:34,677 -  
+Epoch: 4/50	Training Loss(smoke) 0.7614 (0.6035)	
+2021-09-22 16:04:34,701 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_4_smoke.pth
+2021-09-22 16:04:35,756 -  在验证集上预测fire的ACC是0.8609
+2021-09-22 16:04:36,854 -  在验证集上预测smoke的ACC是0.8432
+2021-09-22 16:04:48,900 -  
+Epoch: 5/50	Training Loss(fire) 0.5376 (0.5651)	
+2021-09-22 16:04:48,924 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_5_fire.pth
+2021-09-22 16:04:49,973 -  在验证集上预测fire的ACC是0.9178
+2021-09-22 16:04:51,041 -  在验证集上预测smoke的ACC是0.8344
+2021-09-22 16:05:02,666 -  
+Epoch: 5/50	Training Loss(smoke) 0.5796 (0.5749)	
+2021-09-22 16:05:02,690 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_5_smoke.pth
+2021-09-22 16:05:03,722 -  在验证集上预测fire的ACC是0.8791
+2021-09-22 16:05:04,874 -  在验证集上预测smoke的ACC是0.8685
+2021-09-22 16:05:17,124 -  
+Epoch: 6/50	Training Loss(fire) 0.5960 (0.5395)	
+2021-09-22 16:05:17,152 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_6_fire.pth
+2021-09-22 16:05:18,197 -  在验证集上预测fire的ACC是0.9323
+2021-09-22 16:05:19,247 -  在验证集上预测smoke的ACC是0.8673
+2021-09-22 16:05:30,882 -  
+Epoch: 6/50	Training Loss(smoke) 0.5152 (0.5491)	
+2021-09-22 16:05:30,906 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_6_smoke.pth
+2021-09-22 16:05:31,957 -  在验证集上预测fire的ACC是0.8912
+2021-09-22 16:05:33,077 -  在验证集上预测smoke的ACC是0.8900
+2021-09-22 16:05:45,049 -  
+Epoch: 7/50	Training Loss(fire) 0.6241 (0.5136)	
+2021-09-22 16:05:45,075 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_7_fire.pth
+2021-09-22 16:05:46,120 -  在验证集上预测fire的ACC是0.9347
+2021-09-22 16:05:47,222 -  在验证集上预测smoke的ACC是0.8887
+2021-09-22 16:05:58,844 -  
+Epoch: 7/50	Training Loss(smoke) 0.4732 (0.5265)	
+2021-09-22 16:05:58,871 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_7_smoke.pth
+2021-09-22 16:05:59,899 -  在验证集上预测fire的ACC是0.8948
+2021-09-22 16:06:00,971 -  在验证集上预测smoke的ACC是0.9090
+2021-09-22 16:06:12,796 -  
+Epoch: 8/50	Training Loss(fire) 0.4460 (0.4934)	
+2021-09-22 16:06:12,820 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_8_fire.pth
+2021-09-22 16:06:13,851 -  在验证集上预测fire的ACC是0.9395
+2021-09-22 16:06:14,928 -  在验证集上预测smoke的ACC是0.8976
+2021-09-22 16:06:26,391 -  
+Epoch: 8/50	Training Loss(smoke) 0.6079 (0.4999)	
+2021-09-22 16:06:26,416 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_8_smoke.pth
+2021-09-22 16:06:27,441 -  在验证集上预测fire的ACC是0.8996
+2021-09-22 16:06:28,495 -  在验证集上预测smoke的ACC是0.9166
+2021-09-22 16:06:40,347 -  
+Epoch: 9/50	Training Loss(fire) 0.5537 (0.4723)	
+2021-09-22 16:06:40,372 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_9_fire.pth
+2021-09-22 16:06:41,380 -  在验证集上预测fire的ACC是0.9444
+2021-09-22 16:06:42,407 -  在验证集上预测smoke的ACC是0.9052
+2021-09-22 16:06:53,902 -  
+Epoch: 9/50	Training Loss(smoke) 0.5062 (0.4758)	
+2021-09-22 16:06:53,927 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_9_smoke.pth
+2021-09-22 16:06:54,982 -  在验证集上预测fire的ACC是0.9033
+2021-09-22 16:06:56,069 -  在验证集上预测smoke的ACC是0.9305
+2021-09-22 16:07:07,857 -  
+Epoch: 10/50	Training Loss(fire) 0.5110 (0.4501)	
+2021-09-22 16:07:07,883 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_10_fire.pth
+2021-09-22 16:07:08,938 -  在验证集上预测fire的ACC是0.9504
+2021-09-22 16:07:09,990 -  在验证集上预测smoke的ACC是0.9039
+2021-09-22 16:07:21,382 -  
+Epoch: 10/50	Training Loss(smoke) 0.4186 (0.4564)	
+2021-09-22 16:07:21,406 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_10_smoke.pth
+2021-09-22 16:07:22,422 -  在验证集上预测fire的ACC是0.9008
+2021-09-22 16:07:23,496 -  在验证集上预测smoke的ACC是0.9381
+2021-09-22 16:07:35,433 -  
+Epoch: 11/50	Training Loss(fire) 0.4116 (0.4272)	
+2021-09-22 16:07:35,458 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_11_fire.pth
+2021-09-22 16:07:36,552 -  在验证集上预测fire的ACC是0.9516
+2021-09-22 16:07:37,595 -  在验证集上预测smoke的ACC是0.9077
+2021-09-22 16:07:49,034 -  
+Epoch: 11/50	Training Loss(smoke) 0.4965 (0.4343)	
+2021-09-22 16:07:49,061 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_11_smoke.pth
+2021-09-22 16:07:50,093 -  在验证集上预测fire的ACC是0.9033
+2021-09-22 16:07:51,149 -  在验证集上预测smoke的ACC是0.9444
+2021-09-22 16:08:02,951 -  
+Epoch: 12/50	Training Loss(fire) 0.5449 (0.4086)	
+2021-09-22 16:08:02,976 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_12_fire.pth
+2021-09-22 16:08:04,036 -  在验证集上预测fire的ACC是0.9565
+2021-09-22 16:08:05,153 -  在验证集上预测smoke的ACC是0.9115
+2021-09-22 16:08:16,640 -  
+Epoch: 12/50	Training Loss(smoke) 0.4417 (0.4111)	
+2021-09-22 16:08:16,720 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_12_smoke.pth
+2021-09-22 16:08:17,743 -  在验证集上预测fire的ACC是0.9129
+2021-09-22 16:08:18,792 -  在验证集上预测smoke的ACC是0.9507
+2021-09-22 16:08:30,560 -  
+Epoch: 13/50	Training Loss(fire) 0.4893 (0.3893)	
+2021-09-22 16:08:30,589 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_13_fire.pth
+2021-09-22 16:08:31,677 -  在验证集上预测fire的ACC是0.9601
+2021-09-22 16:08:32,748 -  在验证集上预测smoke的ACC是0.9153
+2021-09-22 16:08:44,346 -  
+Epoch: 13/50	Training Loss(smoke) 0.4549 (0.3909)	
+2021-09-22 16:08:44,375 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_13_smoke.pth
+2021-09-22 16:08:45,389 -  在验证集上预测fire的ACC是0.9166
+2021-09-22 16:08:46,433 -  在验证集上预测smoke的ACC是0.9583
+2021-09-22 16:08:58,266 -  
+Epoch: 14/50	Training Loss(fire) 0.6122 (0.3699)	
+2021-09-22 16:08:58,292 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_14_fire.pth
+2021-09-22 16:08:59,326 -  在验证集上预测fire的ACC是0.9625
+2021-09-22 16:09:00,426 -  在验证集上预测smoke的ACC是0.9115
+2021-09-22 16:09:11,874 -  
+Epoch: 14/50	Training Loss(smoke) 0.4077 (0.3704)	
+2021-09-22 16:09:11,899 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_14_smoke.pth
+2021-09-22 16:09:12,964 -  在验证集上预测fire的ACC是0.9262
+2021-09-22 16:09:14,021 -  在验证集上预测smoke的ACC是0.9595
+2021-09-22 16:09:25,914 -  
+Epoch: 15/50	Training Loss(fire) 0.3937 (0.3547)	
+2021-09-22 16:09:25,938 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_15_fire.pth
+2021-09-22 16:09:27,004 -  在验证集上预测fire的ACC是0.9674
+2021-09-22 16:09:28,115 -  在验证集上预测smoke的ACC是0.9140
+2021-09-22 16:09:39,524 -  
+Epoch: 15/50	Training Loss(smoke) 0.5896 (0.3512)	
+2021-09-22 16:09:39,548 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_15_smoke.pth
+2021-09-22 16:09:40,646 -  在验证集上预测fire的ACC是0.9274
+2021-09-22 16:09:41,676 -  在验证集上预测smoke的ACC是0.9633
+2021-09-22 16:09:53,526 -  
+Epoch: 16/50	Training Loss(fire) 0.4216 (0.3338)	
+2021-09-22 16:09:53,551 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_16_fire.pth
+2021-09-22 16:09:54,607 -  在验证集上预测fire的ACC是0.9698
+2021-09-22 16:09:55,637 -  在验证集上预测smoke的ACC是0.9191
+2021-09-22 16:10:07,025 -  
+Epoch: 16/50	Training Loss(smoke) 0.2656 (0.3333)	
+2021-09-22 16:10:07,049 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_16_smoke.pth
+2021-09-22 16:10:08,081 -  在验证集上预测fire的ACC是0.9299
+2021-09-22 16:10:09,146 -  在验证集上预测smoke的ACC是0.9671
+2021-09-22 16:10:21,037 -  
+Epoch: 17/50	Training Loss(fire) 0.4357 (0.3208)	
+2021-09-22 16:10:21,062 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_17_fire.pth
+2021-09-22 16:10:22,141 -  在验证集上预测fire的ACC是0.9698
+2021-09-22 16:10:23,215 -  在验证集上预测smoke的ACC是0.9229
+2021-09-22 16:10:34,621 -  
+Epoch: 17/50	Training Loss(smoke) 0.2995 (0.3155)	
+2021-09-22 16:10:34,645 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_17_smoke.pth
+2021-09-22 16:10:35,703 -  在验证集上预测fire的ACC是0.9407
+2021-09-22 16:10:36,817 -  在验证集上预测smoke的ACC是0.9697
+2021-09-22 16:10:48,877 -  
+Epoch: 18/50	Training Loss(fire) 0.2819 (0.2996)	
+2021-09-22 16:10:48,902 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_18_fire.pth
+2021-09-22 16:10:49,966 -  在验证集上预测fire的ACC是0.9698
+2021-09-22 16:10:51,039 -  在验证集上预测smoke的ACC是0.9267
+2021-09-22 16:11:02,525 -  
+Epoch: 18/50	Training Loss(smoke) 0.3989 (0.3008)	
+2021-09-22 16:11:02,552 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_18_smoke.pth
+2021-09-22 16:11:03,627 -  在验证集上预测fire的ACC是0.9444
+2021-09-22 16:11:04,719 -  在验证集上预测smoke的ACC是0.9709
+2021-09-22 16:11:16,538 -  
+Epoch: 19/50	Training Loss(fire) 0.2758 (0.2804)	
+2021-09-22 16:11:16,562 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_19_fire.pth
+2021-09-22 16:11:17,606 -  在验证集上预测fire的ACC是0.9722
+2021-09-22 16:11:18,636 -  在验证集上预测smoke的ACC是0.9317
+2021-09-22 16:11:30,135 -  
+Epoch: 19/50	Training Loss(smoke) 0.3070 (0.2855)	
+2021-09-22 16:11:30,162 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_19_smoke.pth
+2021-09-22 16:11:31,243 -  在验证集上预测fire的ACC是0.9456
+2021-09-22 16:11:32,292 -  在验证集上预测smoke的ACC是0.9735
+2021-09-22 16:11:44,125 -  
+Epoch: 20/50	Training Loss(fire) 0.3595 (0.2669)	
+2021-09-22 16:11:44,149 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_20_fire.pth
+2021-09-22 16:11:45,230 -  在验证集上预测fire的ACC是0.9746
+2021-09-22 16:11:46,250 -  在验证集上预测smoke的ACC是0.9355
+2021-09-22 16:11:57,770 -  
+Epoch: 20/50	Training Loss(smoke) 0.2266 (0.2703)	
+2021-09-22 16:11:57,795 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_20_smoke.pth
+2021-09-22 16:11:58,815 -  在验证集上预测fire的ACC是0.9492
+2021-09-22 16:11:59,856 -  在验证集上预测smoke的ACC是0.9747
+2021-09-22 16:12:11,707 -  
+Epoch: 21/50	Training Loss(fire) 0.2577 (0.2533)	
+2021-09-22 16:12:11,733 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_21_fire.pth
+2021-09-22 16:12:12,759 -  在验证集上预测fire的ACC是0.9770
+2021-09-22 16:12:13,785 -  在验证集上预测smoke的ACC是0.9393
+2021-09-22 16:12:25,171 -  
+Epoch: 21/50	Training Loss(smoke) 0.5302 (0.2568)	
+2021-09-22 16:12:25,195 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_21_smoke.pth
+2021-09-22 16:12:26,267 -  在验证集上预测fire的ACC是0.9480
+2021-09-22 16:12:27,302 -  在验证集上预测smoke的ACC是0.9785
+2021-09-22 16:12:39,154 -  
+Epoch: 22/50	Training Loss(fire) 0.3961 (0.2376)	
+2021-09-22 16:12:39,179 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_22_fire.pth
+2021-09-22 16:12:40,246 -  在验证集上预测fire的ACC是0.9782
+2021-09-22 16:12:41,325 -  在验证集上预测smoke的ACC是0.9381
+2021-09-22 16:12:52,852 -  
+Epoch: 22/50	Training Loss(smoke) 0.2179 (0.2392)	
+2021-09-22 16:12:52,877 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_22_smoke.pth
+2021-09-22 16:12:53,925 -  在验证集上预测fire的ACC是0.9541
+2021-09-22 16:12:55,041 -  在验证集上预测smoke的ACC是0.9798
+2021-09-22 16:13:06,884 -  
+Epoch: 23/50	Training Loss(fire) 0.6860 (0.2244)	
+2021-09-22 16:13:06,908 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_23_fire.pth
+2021-09-22 16:13:07,964 -  在验证集上预测fire的ACC是0.9819
+2021-09-22 16:13:09,048 -  在验证集上预测smoke的ACC是0.9418
+2021-09-22 16:13:20,566 -  
+Epoch: 23/50	Training Loss(smoke) 0.2829 (0.2310)	
+2021-09-22 16:13:20,590 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_23_smoke.pth
+2021-09-22 16:13:21,648 -  在验证集上预测fire的ACC是0.9541
+2021-09-22 16:13:22,739 -  在验证集上预测smoke的ACC是0.9810
+2021-09-22 16:13:34,579 -  
+Epoch: 24/50	Training Loss(fire) 0.1935 (0.2103)	
+2021-09-22 16:13:34,605 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_24_fire.pth
+2021-09-22 16:13:35,643 -  在验证集上预测fire的ACC是0.9831
+2021-09-22 16:13:36,720 -  在验证集上预测smoke的ACC是0.9431
+2021-09-22 16:13:48,189 -  
+Epoch: 24/50	Training Loss(smoke) 0.1925 (0.2202)	
+2021-09-22 16:13:48,214 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_24_smoke.pth
+2021-09-22 16:13:49,241 -  在验证集上预测fire的ACC是0.9553
+2021-09-22 16:13:50,333 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:14:02,167 -  
+Epoch: 25/50	Training Loss(fire) 0.1833 (0.1989)	
+2021-09-22 16:14:02,193 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_25_fire.pth
+2021-09-22 16:14:03,209 -  在验证集上预测fire的ACC是0.9831
+2021-09-22 16:14:04,221 -  在验证集上预测smoke的ACC是0.9456
+2021-09-22 16:14:15,665 -  
+Epoch: 25/50	Training Loss(smoke) 0.3484 (0.2042)	
+2021-09-22 16:14:15,690 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_25_smoke.pth
+2021-09-22 16:14:16,723 -  在验证集上预测fire的ACC是0.9565
+2021-09-22 16:14:17,853 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:14:29,669 -  
+Epoch: 26/50	Training Loss(fire) 0.2222 (0.1868)	
+2021-09-22 16:14:29,693 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_26_fire.pth
+2021-09-22 16:14:30,754 -  在验证集上预测fire的ACC是0.9867
+2021-09-22 16:14:31,758 -  在验证集上预测smoke的ACC是0.9482
+2021-09-22 16:14:43,178 -  
+Epoch: 26/50	Training Loss(smoke) 0.3813 (0.1938)	
+2021-09-22 16:14:43,204 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_26_smoke.pth
+2021-09-22 16:14:44,233 -  在验证集上预测fire的ACC是0.9613
+2021-09-22 16:14:45,310 -  在验证集上预测smoke的ACC是0.9848
+2021-09-22 16:14:57,181 -  
+Epoch: 27/50	Training Loss(fire) 0.4664 (0.1760)	
+2021-09-22 16:14:57,206 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_27_fire.pth
+2021-09-22 16:14:58,240 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:14:59,304 -  在验证集上预测smoke的ACC是0.9520
+2021-09-22 16:15:10,801 -  
+Epoch: 27/50	Training Loss(smoke) 0.1138 (0.1834)	
+2021-09-22 16:15:10,825 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_27_smoke.pth
+2021-09-22 16:15:11,843 -  在验证集上预测fire的ACC是0.9686
+2021-09-22 16:15:12,897 -  在验证集上预测smoke的ACC是0.9848
+2021-09-22 16:15:24,766 -  
+Epoch: 28/50	Training Loss(fire) 0.2323 (0.1682)	
+2021-09-22 16:15:24,790 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_28_fire.pth
+2021-09-22 16:15:25,866 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:15:26,906 -  在验证集上预测smoke的ACC是0.9545
+2021-09-22 16:15:38,534 -  
+Epoch: 28/50	Training Loss(smoke) 0.1951 (0.1774)	
+2021-09-22 16:15:38,559 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_28_smoke.pth
+2021-09-22 16:15:39,614 -  在验证集上预测fire的ACC是0.9686
+2021-09-22 16:15:40,710 -  在验证集上预测smoke的ACC是0.9861
+2021-09-22 16:15:52,558 -  
+Epoch: 29/50	Training Loss(fire) 0.2499 (0.1574)	
+2021-09-22 16:15:52,581 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_29_fire.pth
+2021-09-22 16:15:53,643 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:15:54,713 -  在验证集上预测smoke的ACC是0.9570
+2021-09-22 16:16:06,305 -  
+Epoch: 29/50	Training Loss(smoke) 0.3352 (0.1657)	
+2021-09-22 16:16:06,329 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_29_smoke.pth
+2021-09-22 16:16:07,355 -  在验证集上预测fire的ACC是0.9686
+2021-09-22 16:16:08,438 -  在验证集上预测smoke的ACC是0.9874
+2021-09-22 16:16:20,252 -  
+Epoch: 30/50	Training Loss(fire) 0.1640 (0.1489)	
+2021-09-22 16:16:20,277 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_30_fire.pth
+2021-09-22 16:16:21,333 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:16:22,398 -  在验证集上预测smoke的ACC是0.9595
+2021-09-22 16:16:33,821 -  
+Epoch: 30/50	Training Loss(smoke) 0.2316 (0.1561)	
+2021-09-22 16:16:33,846 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_30_smoke.pth
+2021-09-22 16:16:34,894 -  在验证集上预测fire的ACC是0.9698
+2021-09-22 16:16:35,992 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:16:47,840 -  
+Epoch: 31/50	Training Loss(fire) 0.1525 (0.1432)	
+2021-09-22 16:16:47,865 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_31_fire.pth
+2021-09-22 16:16:48,952 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:16:50,042 -  在验证集上预测smoke的ACC是0.9646
+2021-09-22 16:17:01,508 -  
+Epoch: 31/50	Training Loss(smoke) 0.1448 (0.1551)	
+2021-09-22 16:17:01,537 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_31_smoke.pth
+2021-09-22 16:17:02,592 -  在验证集上预测fire的ACC是0.9722
+2021-09-22 16:17:03,644 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:17:15,424 -  
+Epoch: 32/50	Training Loss(fire) 0.1068 (0.1335)	
+2021-09-22 16:17:15,448 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_32_fire.pth
+2021-09-22 16:17:16,508 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:17:17,626 -  在验证集上预测smoke的ACC是0.9659
+2021-09-22 16:17:29,028 -  
+Epoch: 32/50	Training Loss(smoke) 0.1302 (0.1453)	
+2021-09-22 16:17:29,051 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_32_smoke.pth
+2021-09-22 16:17:30,122 -  在验证集上预测fire的ACC是0.9746
+2021-09-22 16:17:31,223 -  在验证集上预测smoke的ACC是0.9874
+2021-09-22 16:17:43,123 -  
+Epoch: 33/50	Training Loss(fire) 0.0851 (0.1242)	
+2021-09-22 16:17:43,149 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_33_fire.pth
+2021-09-22 16:17:44,194 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:17:45,255 -  在验证集上预测smoke的ACC是0.9659
+2021-09-22 16:17:56,968 -  
+Epoch: 33/50	Training Loss(smoke) 0.4859 (0.1415)	
+2021-09-22 16:17:56,993 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_33_smoke.pth
+2021-09-22 16:17:58,060 -  在验证集上预测fire的ACC是0.9758
+2021-09-22 16:17:59,126 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:18:11,255 -  
+Epoch: 34/50	Training Loss(fire) 0.3741 (0.1160)	
+2021-09-22 16:18:11,279 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_34_fire.pth
+2021-09-22 16:18:12,332 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:18:13,419 -  在验证集上预测smoke的ACC是0.9646
+2021-09-22 16:18:24,955 -  
+Epoch: 34/50	Training Loss(smoke) 0.1253 (0.1317)	
+2021-09-22 16:18:24,981 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_34_smoke.pth
+2021-09-22 16:18:26,049 -  在验证集上预测fire的ACC是0.9758
+2021-09-22 16:18:27,112 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:18:39,040 -  
+Epoch: 35/50	Training Loss(fire) 0.0710 (0.1092)	
+2021-09-22 16:18:39,064 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_35_fire.pth
+2021-09-22 16:18:40,100 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:18:41,139 -  在验证集上预测smoke的ACC是0.9684
+2021-09-22 16:18:52,677 -  
+Epoch: 35/50	Training Loss(smoke) 0.4171 (0.1258)	
+2021-09-22 16:18:52,702 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_35_smoke.pth
+2021-09-22 16:18:53,719 -  在验证集上预测fire的ACC是0.9782
+2021-09-22 16:18:54,793 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:19:06,660 -  
+Epoch: 36/50	Training Loss(fire) 0.2071 (0.1062)	
+2021-09-22 16:19:06,685 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_36_fire.pth
+2021-09-22 16:19:07,803 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:19:08,853 -  在验证集上预测smoke的ACC是0.9709
+2021-09-22 16:19:20,531 -  
+Epoch: 36/50	Training Loss(smoke) 0.4150 (0.1180)	
+2021-09-22 16:19:20,554 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_36_smoke.pth
+2021-09-22 16:19:21,602 -  在验证集上预测fire的ACC是0.9782
+2021-09-22 16:19:22,714 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:19:34,743 -  
+Epoch: 37/50	Training Loss(fire) 0.1106 (0.0993)	
+2021-09-22 16:19:34,772 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_37_fire.pth
+2021-09-22 16:19:35,841 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:19:36,891 -  在验证集上预测smoke的ACC是0.9697
+2021-09-22 16:19:48,509 -  
+Epoch: 37/50	Training Loss(smoke) 0.1132 (0.1145)	
+2021-09-22 16:19:48,534 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_37_smoke.pth
+2021-09-22 16:19:49,565 -  在验证集上预测fire的ACC是0.9794
+2021-09-22 16:19:50,662 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:20:02,679 -  
+Epoch: 38/50	Training Loss(fire) 0.1606 (0.0952)	
+2021-09-22 16:20:02,703 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_38_fire.pth
+2021-09-22 16:20:03,817 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:20:04,857 -  在验证集上预测smoke的ACC是0.9709
+2021-09-22 16:20:16,249 -  
+Epoch: 38/50	Training Loss(smoke) 0.2488 (0.1092)	
+2021-09-22 16:20:16,275 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_38_smoke.pth
+2021-09-22 16:20:17,298 -  在验证集上预测fire的ACC是0.9819
+2021-09-22 16:20:18,372 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:20:30,194 -  
+Epoch: 39/50	Training Loss(fire) 0.1055 (0.0919)	
+2021-09-22 16:20:30,220 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_39_fire.pth
+2021-09-22 16:20:31,292 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:20:32,547 -  在验证集上预测smoke的ACC是0.9709
+2021-09-22 16:20:43,924 -  
+Epoch: 39/50	Training Loss(smoke) 0.0850 (0.1035)	
+2021-09-22 16:20:43,949 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_39_smoke.pth
+2021-09-22 16:20:45,054 -  在验证集上预测fire的ACC是0.9831
+2021-09-22 16:20:46,146 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:20:57,939 -  
+Epoch: 40/50	Training Loss(fire) 0.1142 (0.0852)	
+2021-09-22 16:20:57,963 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_40_fire.pth
+2021-09-22 16:20:59,062 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:21:00,192 -  在验证集上预测smoke的ACC是0.9722
+2021-09-22 16:21:11,665 -  
+Epoch: 40/50	Training Loss(smoke) 0.0655 (0.0984)	
+2021-09-22 16:21:11,690 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_40_smoke.pth
+2021-09-22 16:21:12,719 -  在验证集上预测fire的ACC是0.9831
+2021-09-22 16:21:13,728 -  在验证集上预测smoke的ACC是0.9899
+2021-09-22 16:21:25,779 -  
+Epoch: 41/50	Training Loss(fire) 0.0698 (0.0808)	
+2021-09-22 16:21:25,807 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_41_fire.pth
+2021-09-22 16:21:26,844 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:21:27,973 -  在验证集上预测smoke的ACC是0.9709
+2021-09-22 16:21:39,467 -  
+Epoch: 41/50	Training Loss(smoke) 0.0847 (0.0944)	
+2021-09-22 16:21:39,491 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_41_smoke.pth
+2021-09-22 16:21:40,546 -  在验证集上预测fire的ACC是0.9831
+2021-09-22 16:21:41,617 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:21:53,475 -  
+Epoch: 42/50	Training Loss(fire) 0.0755 (0.0738)	
+2021-09-22 16:21:53,499 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_42_fire.pth
+2021-09-22 16:21:54,522 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:21:55,575 -  在验证集上预测smoke的ACC是0.9735
+2021-09-22 16:22:06,995 -  
+Epoch: 42/50	Training Loss(smoke) 0.8260 (0.0910)	
+2021-09-22 16:22:07,020 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_42_smoke.pth
+2021-09-22 16:22:08,055 -  在验证集上预测fire的ACC是0.9843
+2021-09-22 16:22:09,109 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:22:21,050 -  
+Epoch: 43/50	Training Loss(fire) 0.0458 (0.0736)	
+2021-09-22 16:22:21,074 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_43_fire.pth
+2021-09-22 16:22:22,181 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:22:23,260 -  在验证集上预测smoke的ACC是0.9772
+2021-09-22 16:22:34,870 -  
+Epoch: 43/50	Training Loss(smoke) 0.1342 (0.0921)	
+2021-09-22 16:22:34,899 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_43_smoke.pth
+2021-09-22 16:22:35,946 -  在验证集上预测fire的ACC是0.9843
+2021-09-22 16:22:37,009 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:22:48,682 -  
+Epoch: 44/50	Training Loss(fire) 0.0898 (0.0728)	
+2021-09-22 16:22:48,706 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_44_fire.pth
+2021-09-22 16:22:49,812 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:22:50,888 -  在验证集上预测smoke的ACC是0.9760
+2021-09-22 16:23:02,536 -  
+Epoch: 44/50	Training Loss(smoke) 0.0729 (0.0875)	
+2021-09-22 16:23:02,561 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_44_smoke.pth
+2021-09-22 16:23:03,617 -  在验证集上预测fire的ACC是0.9843
+2021-09-22 16:23:04,682 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:23:16,446 -  
+Epoch: 45/50	Training Loss(fire) 0.3211 (0.0669)	
+2021-09-22 16:23:16,470 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_45_fire.pth
+2021-09-22 16:23:17,528 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:23:18,591 -  在验证集上预测smoke的ACC是0.9760
+2021-09-22 16:23:30,028 -  
+Epoch: 45/50	Training Loss(smoke) 0.1452 (0.0825)	
+2021-09-22 16:23:30,053 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_45_smoke.pth
+2021-09-22 16:23:31,126 -  在验证集上预测fire的ACC是0.9843
+2021-09-22 16:23:32,207 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:23:44,031 -  
+Epoch: 46/50	Training Loss(fire) 0.1253 (0.0638)	
+2021-09-22 16:23:44,056 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_46_fire.pth
+2021-09-22 16:23:45,121 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:23:46,163 -  在验证集上预测smoke的ACC是0.9810
+2021-09-22 16:23:57,797 -  
+Epoch: 46/50	Training Loss(smoke) 0.0855 (0.0783)	
+2021-09-22 16:23:57,824 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_46_smoke.pth
+2021-09-22 16:23:58,843 -  在验证集上预测fire的ACC是0.9855
+2021-09-22 16:23:59,928 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:24:12,015 -  
+Epoch: 47/50	Training Loss(fire) 0.0762 (0.0626)	
+2021-09-22 16:24:12,039 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_47_fire.pth
+2021-09-22 16:24:13,116 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:24:14,221 -  在验证集上预测smoke的ACC是0.9823
+2021-09-22 16:24:25,462 -  
+Epoch: 47/50	Training Loss(smoke) 0.0993 (0.0770)	
+2021-09-22 16:24:25,486 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_47_smoke.pth
+2021-09-22 16:24:26,567 -  在验证集上预测fire的ACC是0.9855
+2021-09-22 16:24:27,632 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:24:39,493 -  
+Epoch: 48/50	Training Loss(fire) 0.0404 (0.0570)	
+2021-09-22 16:24:39,518 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_48_fire.pth
+2021-09-22 16:24:40,586 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:24:41,644 -  在验证集上预测smoke的ACC是0.9810
+2021-09-22 16:24:53,040 -  
+Epoch: 48/50	Training Loss(smoke) 0.0513 (0.0730)	
+2021-09-22 16:24:53,065 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_48_smoke.pth
+2021-09-22 16:24:54,107 -  在验证集上预测fire的ACC是0.9867
+2021-09-22 16:24:55,172 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:25:07,036 -  
+Epoch: 49/50	Training Loss(fire) 0.0366 (0.0554)	
+2021-09-22 16:25:07,065 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_49_fire.pth
+2021-09-22 16:25:08,122 -  在验证集上预测fire的ACC是0.9940
+2021-09-22 16:25:09,204 -  在验证集上预测smoke的ACC是0.9810
+2021-09-22 16:25:20,828 -  
+Epoch: 49/50	Training Loss(smoke) 0.0344 (0.0723)	
+2021-09-22 16:25:20,852 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_49_smoke.pth
+2021-09-22 16:25:21,927 -  在验证集上预测fire的ACC是0.9855
+2021-09-22 16:25:23,027 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:25:34,998 -  
+Epoch: 50/50	Training Loss(fire) 0.0502 (0.0550)	
+2021-09-22 16:25:35,023 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_50_fire.pth
+2021-09-22 16:25:36,046 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:25:37,129 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:25:48,713 -  
+Epoch: 50/50	Training Loss(smoke) 0.0300 (0.0728)	
+2021-09-22 16:25:48,737 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_50_smoke.pth
+2021-09-22 16:25:49,797 -  在验证集上预测fire的ACC是0.9855
+2021-09-22 16:25:50,836 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:27:32,543 -  dataset_train_fire:4455
+2021-09-22 16:27:32,544 -  dataset_train_smoke: 4264
+2021-09-22 16:27:32,544 -  dataset_val_fire:827
+2021-09-22 16:27:32,544 -  dataset_val_smoke:791
+2021-09-22 16:27:34,901 -  
+***************** Begin Training *****************
+2021-09-22 16:27:34,901 -  Train from pretrained b0
+2021-09-22 16:27:57,944 -  dataset_train_fire:4455
+2021-09-22 16:27:57,944 -  dataset_train_smoke: 4264
+2021-09-22 16:27:57,944 -  dataset_val_fire:827
+2021-09-22 16:27:57,944 -  dataset_val_smoke:791
+2021-09-22 16:28:00,325 -  
+***************** Begin Training *****************
+2021-09-22 16:28:00,325 -  Train from pretrained b0
+2021-09-22 16:28:00,358 -  CLASSIFIER-B0-224-Epoch_50_smoke.pth loaded to classifier!
+2021-09-22 16:28:13,883 -  dataset_train_fire:4455
+2021-09-22 16:28:13,883 -  dataset_train_smoke: 4264
+2021-09-22 16:28:13,883 -  dataset_val_fire:827
+2021-09-22 16:28:13,883 -  dataset_val_smoke:791
+2021-09-22 16:28:16,243 -  
+***************** Begin Training *****************
+2021-09-22 16:28:16,244 -  Train from pretrained b0
+2021-09-22 16:28:16,276 -  CLASSIFIER-B0-224-Epoch_50_smoke.pth loaded to classifier!
+2021-09-22 16:28:28,520 -  
+Epoch: 51/80	Training Loss(fire) 0.0954 (0.0509)	
+2021-09-22 16:28:28,543 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_51_fire.pth
+2021-09-22 16:28:29,624 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:28:30,744 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:28:42,098 -  
+Epoch: 51/80	Training Loss(smoke) 0.2431 (0.0698)	
+2021-09-22 16:28:42,121 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_51_smoke.pth
+2021-09-22 16:28:43,194 -  在验证集上预测fire的ACC是0.9879
+2021-09-22 16:28:44,285 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:28:56,178 -  
+Epoch: 52/80	Training Loss(fire) 0.4427 (0.0469)	
+2021-09-22 16:28:56,202 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_52_fire.pth
+2021-09-22 16:28:57,287 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:28:58,400 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:29:09,797 -  
+Epoch: 52/80	Training Loss(smoke) 0.2993 (0.0634)	
+2021-09-22 16:29:09,820 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_52_smoke.pth
+2021-09-22 16:29:10,906 -  在验证集上预测fire的ACC是0.9879
+2021-09-22 16:29:12,090 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:29:23,902 -  
+Epoch: 53/80	Training Loss(fire) 0.0547 (0.0477)	
+2021-09-22 16:29:23,925 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_53_fire.pth
+2021-09-22 16:29:24,967 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:29:26,076 -  在验证集上预测smoke的ACC是0.9848
+2021-09-22 16:29:37,467 -  
+Epoch: 53/80	Training Loss(smoke) 0.1226 (0.0587)	
+2021-09-22 16:29:37,496 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_53_smoke.pth
+2021-09-22 16:29:38,608 -  在验证集上预测fire的ACC是0.9879
+2021-09-22 16:29:39,742 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:29:51,598 -  
+Epoch: 54/80	Training Loss(fire) 0.1931 (0.0445)	
+2021-09-22 16:29:51,625 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_54_fire.pth
+2021-09-22 16:29:52,730 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:29:53,900 -  在验证集上预测smoke的ACC是0.9836
+2021-09-22 16:30:05,455 -  
+Epoch: 54/80	Training Loss(smoke) 1.0104 (0.0686)	
+2021-09-22 16:30:05,485 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_54_smoke.pth
+2021-09-22 16:30:06,559 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:30:07,724 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:30:19,336 -  
+Epoch: 55/80	Training Loss(fire) 0.0203 (0.0427)	
+2021-09-22 16:30:19,362 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_55_fire.pth
+2021-09-22 16:30:20,467 -  在验证集上预测fire的ACC是0.9952
+2021-09-22 16:30:21,563 -  在验证集上预测smoke的ACC是0.9848
+2021-09-22 16:30:33,071 -  
+Epoch: 55/80	Training Loss(smoke) 0.2346 (0.0603)	
+2021-09-22 16:30:33,097 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_55_smoke.pth
+2021-09-22 16:30:34,238 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:30:35,459 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:30:47,413 -  
+Epoch: 56/80	Training Loss(fire) 0.2503 (0.0408)	
+2021-09-22 16:30:47,437 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_56_fire.pth
+2021-09-22 16:30:48,527 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:30:49,609 -  在验证集上预测smoke的ACC是0.9861
+2021-09-22 16:31:01,139 -  
+Epoch: 56/80	Training Loss(smoke) 0.0309 (0.0541)	
+2021-09-22 16:31:01,161 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_56_smoke.pth
+2021-09-22 16:31:02,252 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:31:03,370 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:31:15,309 -  
+Epoch: 57/80	Training Loss(fire) 0.1628 (0.0413)	
+2021-09-22 16:31:15,336 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_57_fire.pth
+2021-09-22 16:31:16,431 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:31:17,576 -  在验证集上预测smoke的ACC是0.9861
+2021-09-22 16:31:29,050 -  
+Epoch: 57/80	Training Loss(smoke) 0.0197 (0.0534)	
+2021-09-22 16:31:29,074 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_57_smoke.pth
+2021-09-22 16:31:30,139 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:31:31,256 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:31:43,106 -  
+Epoch: 58/80	Training Loss(fire) 0.0145 (0.0416)	
+2021-09-22 16:31:43,131 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_58_fire.pth
+2021-09-22 16:31:44,199 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:31:45,297 -  在验证集上预测smoke的ACC是0.9861
+2021-09-22 16:31:56,741 -  
+Epoch: 58/80	Training Loss(smoke) 0.0495 (0.0514)	
+2021-09-22 16:31:56,771 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_58_smoke.pth
+2021-09-22 16:31:57,884 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:31:59,056 -  在验证集上预测smoke的ACC是0.9924
+2021-09-22 16:32:10,925 -  
+Epoch: 59/80	Training Loss(fire) 0.2213 (0.0376)	
+2021-09-22 16:32:10,953 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_59_fire.pth
+2021-09-22 16:32:12,043 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:32:13,164 -  在验证集上预测smoke的ACC是0.9874
+2021-09-22 16:32:24,742 -  
+Epoch: 59/80	Training Loss(smoke) 0.0618 (0.0495)	
+2021-09-22 16:32:24,768 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_59_smoke.pth
+2021-09-22 16:32:25,824 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:32:26,909 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:32:38,607 -  
+Epoch: 60/80	Training Loss(fire) 0.0373 (0.0377)	
+2021-09-22 16:32:38,630 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_60_fire.pth
+2021-09-22 16:32:39,779 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:32:40,878 -  在验证集上预测smoke的ACC是0.9874
+2021-09-22 16:32:52,457 -  
+Epoch: 60/80	Training Loss(smoke) 0.0179 (0.0493)	
+2021-09-22 16:32:52,480 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_60_smoke.pth
+2021-09-22 16:32:53,562 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:32:54,682 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:33:06,512 -  
+Epoch: 61/80	Training Loss(fire) 0.0400 (0.0339)	
+2021-09-22 16:33:06,539 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_61_fire.pth
+2021-09-22 16:33:07,651 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:33:08,783 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:33:20,211 -  
+Epoch: 61/80	Training Loss(smoke) 0.0420 (0.0485)	
+2021-09-22 16:33:20,234 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_61_smoke.pth
+2021-09-22 16:33:21,302 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:33:22,415 -  在验证集上预测smoke的ACC是0.9924
+2021-09-22 16:33:34,101 -  
+Epoch: 62/80	Training Loss(fire) 0.0598 (0.0344)	
+2021-09-22 16:33:34,130 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_62_fire.pth
+2021-09-22 16:33:35,221 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:33:36,376 -  在验证集上预测smoke的ACC是0.9886
+2021-09-22 16:33:47,793 -  
+Epoch: 62/80	Training Loss(smoke) 0.0190 (0.0461)	
+2021-09-22 16:33:47,817 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_62_smoke.pth
+2021-09-22 16:33:48,908 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:33:50,049 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:34:01,922 -  
+Epoch: 63/80	Training Loss(fire) 0.0365 (0.0324)	
+2021-09-22 16:34:01,946 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_63_fire.pth
+2021-09-22 16:34:03,029 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:34:04,166 -  在验证集上预测smoke的ACC是0.9899
+2021-09-22 16:34:15,756 -  
+Epoch: 63/80	Training Loss(smoke) 0.0192 (0.0453)	
+2021-09-22 16:34:15,779 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_63_smoke.pth
+2021-09-22 16:34:16,851 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:34:17,992 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:34:29,942 -  
+Epoch: 64/80	Training Loss(fire) 0.5299 (0.0328)	
+2021-09-22 16:34:29,966 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_64_fire.pth
+2021-09-22 16:34:31,043 -  在验证集上预测fire的ACC是0.9964
+2021-09-22 16:34:32,201 -  在验证集上预测smoke的ACC是0.9899
+2021-09-22 16:34:43,702 -  
+Epoch: 64/80	Training Loss(smoke) 0.0256 (0.0443)	
+2021-09-22 16:34:43,729 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_64_smoke.pth
+2021-09-22 16:34:44,840 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:34:45,951 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:34:57,776 -  
+Epoch: 65/80	Training Loss(fire) 0.0254 (0.0321)	
+2021-09-22 16:34:57,805 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_65_fire.pth
+2021-09-22 16:34:58,891 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:35:00,017 -  在验证集上预测smoke的ACC是0.9899
+2021-09-22 16:35:11,455 -  
+Epoch: 65/80	Training Loss(smoke) 0.3923 (0.0402)	
+2021-09-22 16:35:11,479 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_65_smoke.pth
+2021-09-22 16:35:12,627 -  在验证集上预测fire的ACC是0.9891
+2021-09-22 16:35:13,734 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:35:25,563 -  
+Epoch: 66/80	Training Loss(fire) 0.1422 (0.0308)	
+2021-09-22 16:35:25,587 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_66_fire.pth
+2021-09-22 16:35:26,691 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:35:27,815 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:35:39,213 -  
+Epoch: 66/80	Training Loss(smoke) 0.0112 (0.0412)	
+2021-09-22 16:35:39,237 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_66_smoke.pth
+2021-09-22 16:35:40,347 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:35:41,504 -  在验证集上预测smoke的ACC是0.9962
+2021-09-22 16:35:53,468 -  
+Epoch: 67/80	Training Loss(fire) 0.0820 (0.0326)	
+2021-09-22 16:35:53,497 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_67_fire.pth
+2021-09-22 16:35:54,626 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:35:55,761 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:36:07,271 -  
+Epoch: 67/80	Training Loss(smoke) 0.0401 (0.0415)	
+2021-09-22 16:36:07,294 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_67_smoke.pth
+2021-09-22 16:36:08,411 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:36:09,557 -  在验证集上预测smoke的ACC是0.9962
+2021-09-22 16:36:21,600 -  
+Epoch: 68/80	Training Loss(fire) 0.0315 (0.0276)	
+2021-09-22 16:36:21,626 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_68_fire.pth
+2021-09-22 16:36:22,773 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:36:23,899 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:36:35,496 -  
+Epoch: 68/80	Training Loss(smoke) 0.0476 (0.0401)	
+2021-09-22 16:36:35,524 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_68_smoke.pth
+2021-09-22 16:36:36,601 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:36:37,761 -  在验证集上预测smoke的ACC是0.9962
+2021-09-22 16:36:49,601 -  
+Epoch: 69/80	Training Loss(fire) 0.0218 (0.0271)	
+2021-09-22 16:36:49,624 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_69_fire.pth
+2021-09-22 16:36:50,700 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:36:51,840 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:37:03,349 -  
+Epoch: 69/80	Training Loss(smoke) 0.0477 (0.0397)	
+2021-09-22 16:37:03,373 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_69_smoke.pth
+2021-09-22 16:37:04,421 -  在验证集上预测fire的ACC是0.9903
+2021-09-22 16:37:05,559 -  在验证集上预测smoke的ACC是0.9962
+2021-09-22 16:37:17,476 -  
+Epoch: 70/80	Training Loss(fire) 0.1075 (0.0277)	
+2021-09-22 16:37:17,500 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_70_fire.pth
+2021-09-22 16:37:18,624 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:37:19,701 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:37:31,217 -  
+Epoch: 70/80	Training Loss(smoke) 0.0154 (0.0401)	
+2021-09-22 16:37:31,244 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_70_smoke.pth
+2021-09-22 16:37:32,305 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:37:33,420 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:37:45,352 -  
+Epoch: 71/80	Training Loss(fire) 0.0220 (0.0253)	
+2021-09-22 16:37:45,376 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_71_fire.pth
+2021-09-22 16:37:46,494 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:37:47,606 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:37:59,128 -  
+Epoch: 71/80	Training Loss(smoke) 1.0445 (0.0392)	
+2021-09-22 16:37:59,151 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_71_smoke.pth
+2021-09-22 16:38:00,221 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:38:01,303 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:38:13,339 -  
+Epoch: 72/80	Training Loss(fire) 0.1730 (0.0251)	
+2021-09-22 16:38:13,363 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_72_fire.pth
+2021-09-22 16:38:14,432 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:38:15,541 -  在验证集上预测smoke的ACC是0.9912
+2021-09-22 16:38:27,265 -  
+Epoch: 72/80	Training Loss(smoke) 0.0147 (0.0343)	
+2021-09-22 16:38:27,292 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_72_smoke.pth
+2021-09-22 16:38:28,414 -  在验证集上预测fire的ACC是0.9915
+2021-09-22 16:38:29,583 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:38:41,576 -  
+Epoch: 73/80	Training Loss(fire) 0.7916 (0.0260)	
+2021-09-22 16:38:41,600 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_73_fire.pth
+2021-09-22 16:38:42,709 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:38:43,823 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:38:55,346 -  
+Epoch: 73/80	Training Loss(smoke) 0.4672 (0.0350)	
+2021-09-22 16:38:55,374 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_73_smoke.pth
+2021-09-22 16:38:56,511 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:38:57,631 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:39:09,605 -  
+Epoch: 74/80	Training Loss(fire) 0.0275 (0.0244)	
+2021-09-22 16:39:09,628 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_74_fire.pth
+2021-09-22 16:39:10,677 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:39:11,829 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:39:23,354 -  
+Epoch: 74/80	Training Loss(smoke) 0.0145 (0.0351)	
+2021-09-22 16:39:23,377 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_74_smoke.pth
+2021-09-22 16:39:24,454 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:39:25,564 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:39:37,209 -  
+Epoch: 75/80	Training Loss(fire) 0.0215 (0.0237)	
+2021-09-22 16:39:37,233 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_75_fire.pth
+2021-09-22 16:39:38,326 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:39:39,391 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:39:50,929 -  
+Epoch: 75/80	Training Loss(smoke) 0.3051 (0.0340)	
+2021-09-22 16:39:50,952 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_75_smoke.pth
+2021-09-22 16:39:52,027 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:39:53,212 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:40:05,202 -  
+Epoch: 76/80	Training Loss(fire) 0.0355 (0.0223)	
+2021-09-22 16:40:05,230 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_76_fire.pth
+2021-09-22 16:40:06,292 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:40:07,394 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:40:18,869 -  
+Epoch: 76/80	Training Loss(smoke) 0.2113 (0.0303)	
+2021-09-22 16:40:18,896 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_76_smoke.pth
+2021-09-22 16:40:20,029 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:40:21,143 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:40:33,077 -  
+Epoch: 77/80	Training Loss(fire) 0.4018 (0.0221)	
+2021-09-22 16:40:33,102 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_77_fire.pth
+2021-09-22 16:40:34,193 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:40:35,316 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:40:46,720 -  
+Epoch: 77/80	Training Loss(smoke) 0.0084 (0.0311)	
+2021-09-22 16:40:46,748 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_77_smoke.pth
+2021-09-22 16:40:47,848 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:40:48,949 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:41:00,835 -  
+Epoch: 78/80	Training Loss(fire) 0.0480 (0.0228)	
+2021-09-22 16:41:00,862 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_78_fire.pth 【这个可以】
+2021-09-22 16:41:01,991 -  在验证集上预测fire的ACC是0.9988
+2021-09-22 16:41:03,070 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:41:14,636 -  
+Epoch: 78/80	Training Loss(smoke) 0.0532 (0.0309)	
+2021-09-22 16:41:14,660 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_78_smoke.pth
+2021-09-22 16:41:15,742 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:41:16,849 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:41:28,741 -  
+Epoch: 79/80	Training Loss(fire) 0.0135 (0.0219)	
+2021-09-22 16:41:28,766 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_79_fire.pth
+2021-09-22 16:41:29,875 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:41:31,023 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:41:42,460 -  
+Epoch: 79/80	Training Loss(smoke) 0.2037 (0.0295)	
+2021-09-22 16:41:42,484 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_79_smoke.pth
+2021-09-22 16:41:43,619 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:41:44,784 -  在验证集上预测smoke的ACC是0.9949
+2021-09-22 16:41:56,685 -  
+Epoch: 80/80	Training Loss(fire) 0.0139 (0.0220)	
+2021-09-22 16:41:56,712 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_80_fire.pth
+2021-09-22 16:41:57,817 -  在验证集上预测fire的ACC是0.9976
+2021-09-22 16:41:58,923 -  在验证集上预测smoke的ACC是0.9937
+2021-09-22 16:42:10,645 -  
+Epoch: 80/80	Training Loss(smoke) 0.1529 (0.0264)	
+2021-09-22 16:42:10,671 -  /data1/littlesc/Fire/ckpt/CLASSIFIER-B0-224-Epoch_80_smoke.pth
+2021-09-22 16:42:11,768 -  在验证集上预测fire的ACC是0.9927
+2021-09-22 16:42:12,974 -  在验证集上预测smoke的ACC是0.9949
+2021-10-09 16:03:32,177 -  
+***************** Begin Training *****************
+2021-10-09 16:03:32,177 -  Train from pretrained b0
+2021-10-09 16:03:57,854 -  
+***************** Begin Training *****************
+2021-10-09 16:03:57,854 -  Train from pretrained b0
+2021-10-09 16:04:16,091 -  
+***************** Begin Training *****************
+2021-10-09 16:04:16,091 -  Train from pretrained b0
+2021-10-09 16:04:46,995 -  
+***************** Begin Training *****************
+2021-10-09 16:04:46,995 -  Train from pretrained b0
+2021-10-09 16:06:17,904 -  
+***************** Begin Training *****************
+2021-10-09 16:06:17,904 -  Train from pretrained b0
+2021-10-09 16:06:40,722 -  
+***************** Begin Training *****************
+2021-10-09 16:06:40,722 -  Train from pretrained b0
+2021-10-09 16:06:55,897 -  
+***************** Begin Training *****************
+2021-10-09 16:06:55,897 -  Train from pretrained b0
+2021-10-09 16:07:14,064 -  
+Epoch: 1/80	Training Loss 1.3291 (1.3724)	
+2021-10-09 16:07:14,089 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_1.pth
+2021-10-09 16:08:07,298 -  
+***************** Begin Training *****************
+2021-10-09 16:08:07,298 -  Train from pretrained b0
+2021-10-09 16:08:25,470 -  
+Epoch: 1/80	Training Loss 1.3291 (1.3724)	
+2021-10-09 16:08:25,500 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_1.pth
+2021-10-09 16:08:43,250 -  
+Epoch: 2/80	Training Loss 1.2846 (1.3252)	
+2021-10-09 16:08:43,277 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_2.pth
+2021-10-09 16:09:01,077 -  
+Epoch: 3/80	Training Loss 1.2816 (1.2801)	
+2021-10-09 16:09:01,103 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_3.pth
+2021-10-09 16:09:19,133 -  
+Epoch: 4/80	Training Loss 1.1560 (1.2356)	
+2021-10-09 16:09:19,158 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_4.pth
+2021-10-09 16:09:37,026 -  
+Epoch: 5/80	Training Loss 1.1817 (1.1945)	
+2021-10-09 16:09:37,050 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_5.pth
+2021-10-09 16:09:54,985 -  
+Epoch: 6/80	Training Loss 1.1175 (1.1512)	
+2021-10-09 16:09:55,012 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_6.pth
+2021-10-09 16:10:12,989 -  
+Epoch: 7/80	Training Loss 1.1653 (1.1101)	
+2021-10-09 16:10:13,013 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_7.pth
+2021-10-09 16:10:31,220 -  
+Epoch: 8/80	Training Loss 1.0289 (1.0751)	
+2021-10-09 16:10:31,247 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_8.pth
+2021-10-09 16:10:49,193 -  
+Epoch: 9/80	Training Loss 0.9878 (1.0358)	
+2021-10-09 16:10:49,222 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_9.pth
+2021-10-09 16:11:07,190 -  
+Epoch: 10/80	Training Loss 1.0029 (0.9972)	
+2021-10-09 16:11:07,214 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_10.pth
+2021-10-09 16:11:25,505 -  
+Epoch: 11/80	Training Loss 0.8613 (0.9578)	
+2021-10-09 16:11:25,531 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_11.pth
+2021-10-09 16:12:19,332 -  
+***************** Begin Training *****************
+2021-10-09 16:12:19,332 -  Train from pretrained b0
+2021-10-09 16:12:19,370 -  CLASSIFIER-B0-224-Epoch_11.pth loaded to classifier!
+2021-10-09 16:12:37,615 -  
+Epoch: 12/80	Training Loss 0.9220 (0.9203)	
+2021-10-09 16:12:37,638 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_12.pth
+2021-10-09 16:12:55,471 -  
+Epoch: 13/80	Training Loss 0.8112 (0.8839)	
+2021-10-09 16:12:55,499 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_13.pth
+2021-10-09 16:13:13,527 -  
+Epoch: 14/80	Training Loss 0.9570 (0.8490)	
+2021-10-09 16:13:13,553 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_14.pth
+2021-10-09 16:13:31,603 -  
+Epoch: 15/80	Training Loss 0.7300 (0.8113)	
+2021-10-09 16:13:31,631 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_15.pth
+2021-10-09 16:13:49,741 -  
+Epoch: 16/80	Training Loss 0.7126 (0.7793)	
+2021-10-09 16:13:49,767 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_16.pth
+2021-10-09 16:14:07,753 -  
+Epoch: 17/80	Training Loss 0.7054 (0.7451)	
+2021-10-09 16:14:07,780 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_17.pth
+2021-10-09 16:14:26,131 -  
+Epoch: 18/80	Training Loss 0.8396 (0.7107)	
+2021-10-09 16:14:26,157 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_18.pth
+2021-10-09 16:14:44,233 -  
+Epoch: 19/80	Training Loss 0.6394 (0.6823)	
+2021-10-09 16:14:44,257 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_19.pth
+2021-10-09 16:15:02,341 -  
+Epoch: 20/80	Training Loss 0.6193 (0.6485)	
+2021-10-09 16:15:02,365 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_20.pth
+2021-10-09 16:15:20,438 -  
+Epoch: 21/80	Training Loss 0.6677 (0.6203)	
+2021-10-09 16:15:20,466 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_21.pth
+2021-10-09 16:15:38,615 -  
+Epoch: 22/80	Training Loss 0.5052 (0.5878)	
+2021-10-09 16:15:38,644 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_22.pth
+2021-10-09 16:15:56,859 -  
+Epoch: 23/80	Training Loss 0.4973 (0.5616)	
+2021-10-09 16:15:56,884 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_23.pth
+2021-10-09 16:16:14,942 -  
+Epoch: 24/80	Training Loss 0.5437 (0.5449)	
+2021-10-09 16:16:14,966 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_24.pth
+2021-10-09 16:16:33,028 -  
+Epoch: 25/80	Training Loss 0.4673 (0.5121)	
+2021-10-09 16:16:33,056 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_25.pth
+2021-10-09 16:16:51,121 -  
+Epoch: 26/80	Training Loss 0.4050 (0.4924)	
+2021-10-09 16:16:51,150 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_26.pth
+2021-10-09 16:17:47,051 -  
+***************** Begin Training *****************
+2021-10-09 16:17:47,051 -  Train from pretrained b0
+2021-10-09 16:17:47,084 -  CLASSIFIER-B0-224-Epoch_26.pth loaded to classifier!
+2021-10-09 16:18:05,300 -  
+Epoch: 27/200	Training Loss 0.5334 (0.4603)	
+2021-10-09 16:18:05,324 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_27.pth
+2021-10-09 16:18:23,277 -  
+Epoch: 28/200	Training Loss 0.3938 (0.4368)	
+2021-10-09 16:18:23,301 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_28.pth
+2021-10-09 16:18:41,358 -  
+Epoch: 29/200	Training Loss 0.5587 (0.4175)	
+2021-10-09 16:18:41,388 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_29.pth
+2021-10-09 16:18:59,497 -  
+Epoch: 30/200	Training Loss 0.3143 (0.3930)	
+2021-10-09 16:18:59,524 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_30.pth
+2021-10-09 16:19:17,730 -  
+Epoch: 31/200	Training Loss 0.2882 (0.3748)	
+2021-10-09 16:19:17,759 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_31.pth
+2021-10-09 16:19:36,202 -  
+Epoch: 32/200	Training Loss 0.3343 (0.3564)	
+2021-10-09 16:19:36,232 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_32.pth
+2021-10-09 16:19:54,400 -  
+Epoch: 33/200	Training Loss 0.5166 (0.3376)	
+2021-10-09 16:19:54,428 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_33.pth
+2021-10-09 16:20:12,540 -  
+Epoch: 34/200	Training Loss 0.2973 (0.3245)	
+2021-10-09 16:20:12,564 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_34.pth
+2021-10-09 16:20:30,691 -  
+Epoch: 35/200	Training Loss 0.3366 (0.3052)	
+2021-10-09 16:20:30,716 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_35.pth
+2021-10-09 16:20:48,819 -  
+Epoch: 36/200	Training Loss 0.3571 (0.2945)	
+2021-10-09 16:20:48,847 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_36.pth
+2021-10-09 16:21:06,959 -  
+Epoch: 37/200	Training Loss 0.2502 (0.2772)	
+2021-10-09 16:21:06,985 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_37.pth
+2021-10-09 16:21:24,996 -  
+Epoch: 38/200	Training Loss 0.1881 (0.2657)	
+2021-10-09 16:21:25,023 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_38.pth
+2021-10-09 16:21:43,183 -  
+Epoch: 39/200	Training Loss 0.2641 (0.2650)	
+2021-10-09 16:21:43,211 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_39.pth
+2021-10-09 16:22:01,337 -  
+Epoch: 40/200	Training Loss 0.1873 (0.2475)	
+2021-10-09 16:22:01,362 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_40.pth
+2021-10-09 16:22:19,506 -  
+Epoch: 41/200	Training Loss 0.1740 (0.2400)	
+2021-10-09 16:22:19,531 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_41.pth
+2021-10-09 16:22:37,553 -  
+Epoch: 42/200	Training Loss 0.2124 (0.2248)	
+2021-10-09 16:22:37,579 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_42.pth
+2021-10-09 16:22:55,597 -  
+Epoch: 43/200	Training Loss 0.2015 (0.2187)	
+2021-10-09 16:22:55,626 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_43.pth
+2021-10-09 16:23:13,801 -  
+Epoch: 44/200	Training Loss 0.3258 (0.2073)	
+2021-10-09 16:23:13,825 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_44.pth
+2021-10-09 16:23:31,459 -  
+Epoch: 45/200	Training Loss 0.2098 (0.1983)	
+2021-10-09 16:23:31,484 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_45.pth
+2021-10-09 16:23:49,702 -  
+Epoch: 46/200	Training Loss 0.1236 (0.1910)	
+2021-10-09 16:23:49,732 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_46.pth
+2021-10-09 16:24:07,939 -  
+Epoch: 47/200	Training Loss 0.2189 (0.1840)	
+2021-10-09 16:24:07,968 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_47.pth
+2021-10-09 16:24:26,191 -  
+Epoch: 48/200	Training Loss 0.1466 (0.1790)	
+2021-10-09 16:24:26,219 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_48.pth
+2021-10-09 16:24:44,704 -  
+Epoch: 49/200	Training Loss 0.1658 (0.1749)	
+2021-10-09 16:24:44,729 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_49.pth
+2021-10-09 16:25:03,013 -  
+Epoch: 50/200	Training Loss 0.1510 (0.1638)	
+2021-10-09 16:25:03,042 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_50.pth
+2021-10-09 16:25:21,189 -  
+Epoch: 51/200	Training Loss 0.1486 (0.1603)	
+2021-10-09 16:25:21,218 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_51.pth
+2021-10-09 16:25:39,452 -  
+Epoch: 52/200	Training Loss 0.2028 (0.1517)	
+2021-10-09 16:25:39,476 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_52.pth
+2021-10-09 16:25:57,603 -  
+Epoch: 53/200	Training Loss 0.2163 (0.1517)	
+2021-10-09 16:25:57,628 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_53.pth
+2021-10-09 16:26:15,636 -  
+Epoch: 54/200	Training Loss 0.1415 (0.1476)	
+2021-10-09 16:26:15,660 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_54.pth
+2021-10-09 16:26:33,850 -  
+Epoch: 55/200	Training Loss 0.1227 (0.1391)	
+2021-10-09 16:26:33,874 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_55.pth
+2021-10-09 16:26:51,921 -  
+Epoch: 56/200	Training Loss 0.0856 (0.1405)	
+2021-10-09 16:26:51,950 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_56.pth
+2021-10-09 16:27:09,858 -  
+Epoch: 57/200	Training Loss 0.2547 (0.1313)	
+2021-10-09 16:27:09,883 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_57.pth
+2021-10-09 16:27:27,874 -  
+Epoch: 58/200	Training Loss 0.1924 (0.1289)	
+2021-10-09 16:27:27,903 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_58.pth
+2021-10-09 16:27:45,984 -  
+Epoch: 59/200	Training Loss 0.1647 (0.1287)	
+2021-10-09 16:27:46,010 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_59.pth
+2021-10-09 16:28:04,064 -  
+Epoch: 60/200	Training Loss 0.3173 (0.1216)	
+2021-10-09 16:28:04,090 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_60.pth
+2021-10-09 16:28:22,284 -  
+Epoch: 61/200	Training Loss 0.0803 (0.1194)	
+2021-10-09 16:28:22,309 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_61.pth
+2021-10-09 16:28:40,456 -  
+Epoch: 62/200	Training Loss 0.0650 (0.1162)	
+2021-10-09 16:28:40,481 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_62.pth
+2021-10-09 16:28:58,805 -  
+Epoch: 63/200	Training Loss 0.1177 (0.1109)	
+2021-10-09 16:28:58,830 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_63.pth
+2021-10-09 16:29:17,283 -  
+Epoch: 64/200	Training Loss 0.3538 (0.1029)	
+2021-10-09 16:29:17,307 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_64.pth
+2021-10-09 16:29:34,975 -  
+Epoch: 65/200	Training Loss 0.0780 (0.1051)	
+2021-10-09 16:29:35,002 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_65.pth
+2021-10-09 16:29:53,093 -  
+Epoch: 66/200	Training Loss 0.0948 (0.0989)	
+2021-10-09 16:29:53,117 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_66.pth
+2021-10-09 16:30:11,251 -  
+Epoch: 67/200	Training Loss 0.0753 (0.0954)	
+2021-10-09 16:30:11,279 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_67.pth
+2021-10-09 16:30:29,545 -  
+Epoch: 68/200	Training Loss 0.1285 (0.0978)	
+2021-10-09 16:30:29,571 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_68.pth
+2021-10-09 16:30:47,583 -  
+Epoch: 69/200	Training Loss 0.0479 (0.0916)	
+2021-10-09 16:30:47,612 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_69.pth
+2021-10-09 16:31:05,614 -  
+Epoch: 70/200	Training Loss 0.0903 (0.0916)	
+2021-10-09 16:31:05,638 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_70.pth
+2021-10-09 16:31:23,572 -  
+Epoch: 71/200	Training Loss 0.3070 (0.0896)	
+2021-10-09 16:31:23,596 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_71.pth
+2021-10-09 16:31:41,709 -  
+Epoch: 72/200	Training Loss 0.4112 (0.0901)	
+2021-10-09 16:31:41,733 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_72.pth
+2021-10-09 16:31:59,762 -  
+Epoch: 73/200	Training Loss 0.0731 (0.0850)	
+2021-10-09 16:31:59,787 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_73.pth
+2021-10-09 16:32:17,663 -  
+Epoch: 74/200	Training Loss 0.0627 (0.0845)	
+2021-10-09 16:32:17,687 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_74.pth
+2021-10-09 16:32:35,234 -  
+Epoch: 75/200	Training Loss 0.0437 (0.0793)	
+2021-10-09 16:32:35,258 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_75.pth
+2021-10-09 16:32:53,012 -  
+Epoch: 76/200	Training Loss 0.0375 (0.0801)	
+2021-10-09 16:32:53,037 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_76.pth
+2021-10-09 16:33:11,485 -  
+Epoch: 77/200	Training Loss 0.0707 (0.0777)	
+2021-10-09 16:33:11,510 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_77.pth
+2021-10-09 16:33:29,660 -  
+Epoch: 78/200	Training Loss 0.0975 (0.0758)	
+2021-10-09 16:33:29,684 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_78.pth
+2021-10-09 16:33:47,836 -  
+Epoch: 79/200	Training Loss 0.1974 (0.0787)	
+2021-10-09 16:33:47,861 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_79.pth
+2021-10-09 16:34:05,899 -  
+Epoch: 80/200	Training Loss 0.0306 (0.0733)	
+2021-10-09 16:34:05,924 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_80.pth
+2021-10-09 16:34:23,992 -  
+Epoch: 81/200	Training Loss 0.1213 (0.0724)	
+2021-10-09 16:34:24,017 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_81.pth
+2021-10-09 16:34:42,029 -  
+Epoch: 82/200	Training Loss 0.1209 (0.0679)	
+2021-10-09 16:34:42,053 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_82.pth
+2021-10-09 16:35:00,084 -  
+Epoch: 83/200	Training Loss 0.1105 (0.0702)	
+2021-10-09 16:35:00,108 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_83.pth
+2021-10-09 16:35:18,040 -  
+Epoch: 84/200	Training Loss 0.1770 (0.0670)	
+2021-10-09 16:35:18,064 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_84.pth
+2021-10-09 16:35:36,147 -  
+Epoch: 85/200	Training Loss 0.0483 (0.0687)	
+2021-10-09 16:35:36,175 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_85.pth
+2021-10-09 16:35:54,317 -  
+Epoch: 86/200	Training Loss 0.0845 (0.0662)	
+2021-10-09 16:35:54,342 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_86.pth
+2021-10-09 16:36:12,576 -  
+Epoch: 87/200	Training Loss 0.0365 (0.0622)	
+2021-10-09 16:36:12,603 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_87.pth
+2021-10-09 16:36:30,665 -  
+Epoch: 88/200	Training Loss 0.0389 (0.0600)	
+2021-10-09 16:36:30,689 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_88.pth
+2021-10-09 16:36:48,887 -  
+Epoch: 89/200	Training Loss 0.0472 (0.0636)	
+2021-10-09 16:36:48,912 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_89.pth
+2021-10-09 16:37:07,038 -  
+Epoch: 90/200	Training Loss 0.0687 (0.0624)	
+2021-10-09 16:37:07,062 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_90.pth
+2021-10-09 16:37:25,259 -  
+Epoch: 91/200	Training Loss 0.0370 (0.0605)	
+2021-10-09 16:37:25,283 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_91.pth
+2021-10-09 16:37:43,766 -  
+Epoch: 92/200	Training Loss 0.0329 (0.0553)	
+2021-10-09 16:37:43,789 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_92.pth
+2021-10-09 16:38:01,892 -  
+Epoch: 93/200	Training Loss 0.0530 (0.0580)	
+2021-10-09 16:38:01,920 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_93.pth
+2021-10-09 16:38:20,381 -  
+Epoch: 94/200	Training Loss 0.0590 (0.0581)	
+2021-10-09 16:38:20,404 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_94.pth
+2021-10-09 16:38:38,457 -  
+Epoch: 95/200	Training Loss 0.0625 (0.0590)	
+2021-10-09 16:38:38,481 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_95.pth
+2021-10-09 16:38:56,176 -  
+Epoch: 96/200	Training Loss 0.1328 (0.0548)	
+2021-10-09 16:38:56,201 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_96.pth
+2021-10-09 16:39:14,426 -  
+Epoch: 97/200	Training Loss 0.0417 (0.0560)	
+2021-10-09 16:39:14,451 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_97.pth
+2021-10-09 16:39:32,534 -  
+Epoch: 98/200	Training Loss 0.2711 (0.0539)	
+2021-10-09 16:39:32,558 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_98.pth
+2021-10-09 16:39:50,606 -  
+Epoch: 99/200	Training Loss 0.1693 (0.0558)	
+2021-10-09 16:39:50,630 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_99.pth
+2021-10-09 16:40:08,736 -  
+Epoch: 100/200	Training Loss 0.0444 (0.0519)	
+2021-10-09 16:40:08,762 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_100.pth
+2021-10-09 16:40:26,818 -  
+Epoch: 101/200	Training Loss 0.0367 (0.0511)	
+2021-10-09 16:40:26,842 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_101.pth
+2021-10-09 16:40:44,983 -  
+Epoch: 102/200	Training Loss 0.0275 (0.0504)	
+2021-10-09 16:40:45,007 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_102.pth
+2021-10-09 16:41:02,984 -  
+Epoch: 103/200	Training Loss 0.0661 (0.0447)	
+2021-10-09 16:41:03,009 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_103.pth
+2021-10-09 16:41:21,097 -  
+Epoch: 104/200	Training Loss 0.0678 (0.0449)	
+2021-10-09 16:41:21,125 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_104.pth
+2021-10-09 16:41:39,471 -  
+Epoch: 105/200	Training Loss 0.0782 (0.0492)	
+2021-10-09 16:41:39,494 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_105.pth
+2021-10-09 16:41:57,604 -  
+Epoch: 106/200	Training Loss 0.0572 (0.0453)	
+2021-10-09 16:41:57,633 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_106.pth
+2021-10-09 16:42:15,663 -  
+Epoch: 107/200	Training Loss 0.0382 (0.0461)	
+2021-10-09 16:42:15,687 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_107.pth
+2021-10-09 16:42:33,984 -  
+Epoch: 108/200	Training Loss 0.0363 (0.0476)	
+2021-10-09 16:42:34,010 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_108.pth
+2021-10-09 16:42:52,256 -  
+Epoch: 109/200	Training Loss 0.0681 (0.0430)	
+2021-10-09 16:42:52,284 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_109.pth
+2021-10-09 16:43:10,514 -  
+Epoch: 110/200	Training Loss 0.0517 (0.0441)	
+2021-10-09 16:43:10,537 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_110.pth
+2021-10-09 16:43:28,550 -  
+Epoch: 111/200	Training Loss 0.0456 (0.0450)	
+2021-10-09 16:43:28,579 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_111.pth
+2021-10-09 16:43:46,838 -  
+Epoch: 112/200	Training Loss 0.2220 (0.0449)	
+2021-10-09 16:43:46,862 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_112.pth
+2021-10-09 16:44:04,599 -  
+Epoch: 113/200	Training Loss 0.0294 (0.0417)	
+2021-10-09 16:44:04,623 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_113.pth
+2021-10-09 16:44:22,704 -  
+Epoch: 114/200	Training Loss 0.0994 (0.0410)	
+2021-10-09 16:44:22,728 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_114.pth
+2021-10-09 16:44:41,124 -  
+Epoch: 115/200	Training Loss 0.0305 (0.0399)	
+2021-10-09 16:44:41,148 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_115.pth
+2021-10-09 16:44:59,629 -  
+Epoch: 116/200	Training Loss 0.0929 (0.0362)	
+2021-10-09 16:44:59,653 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_116.pth
+2021-10-09 16:45:18,030 -  
+Epoch: 117/200	Training Loss 0.0325 (0.0412)	
+2021-10-09 16:45:18,054 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_117.pth
+2021-10-09 16:45:36,299 -  
+Epoch: 118/200	Training Loss 0.5696 (0.0393)	
+2021-10-09 16:45:36,322 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_118.pth
+2021-10-09 16:45:54,417 -  
+Epoch: 119/200	Training Loss 0.0220 (0.0401)	
+2021-10-09 16:45:54,441 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_119.pth
+2021-10-09 16:46:12,464 -  
+Epoch: 120/200	Training Loss 0.0191 (0.0405)	
+2021-10-09 16:46:12,490 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_120.pth
+2021-10-09 16:46:30,624 -  
+Epoch: 121/200	Training Loss 0.0239 (0.0384)	
+2021-10-09 16:46:30,650 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_121.pth
+2021-10-09 16:46:48,757 -  
+Epoch: 122/200	Training Loss 0.0179 (0.0377)	
+2021-10-09 16:46:48,782 -  /data1/littlesc/Fire/ckpt_v2/CLASSIFIER-B0-224-Epoch_122.pth
