@@ -5,6 +5,7 @@ This project builds an end-to-end smart city digital system based on open-source
 Contents
 ========
 
+
 - [SmartCity Showcase](#smartcity-showcase)
 - [Contents](#contents)
   - [System Architecture](#system-architecture)
@@ -41,10 +42,12 @@ Contents
   - [Contributors](#contributors)
 
 
+
 ## System Architecture
 ![architecture](/SmartCity/images/architecture.jpg)
 
 ## Components 
+
 Followings are the fundamental components in our system:
 - camera
 - persistent stream storage Pravega
@@ -77,6 +80,7 @@ Followings are the fundamental components in our system:
       + in the process of video processing, recognition and analysis, the edge AI engine consumes video data in real time through pravega's data access interface. Using pravega's characteristics of low delay and high throughput, the edge AI engine can realize real-time prediction, and write the AI result data into pravega's stream to provide materials for downstream tasks.
 
       + for data application and visualization, use JDBC to synchronize AI result data to matrixone to complete the transmission of the last value link of data. Matrixone can provide complex data organization and integration capabilities and display them in a visual way.
+
 
 ## Getting start
 This section assumes that you are using Ubuntu version 20.04+. Some libraries and programs may not be compatible with older versions. Docker is recommended.
