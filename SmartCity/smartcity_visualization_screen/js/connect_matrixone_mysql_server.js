@@ -52,15 +52,38 @@ ap_p.get('/face',function(req,res){           //配置接口api
       database: 'park' 
     }); 
      connection.connect();
-    var  sql = 'SELECT * FROM face ORDER BY `time` DESC';
-    connection.query(sql,function (err, result) {
+    var sql = 'SELECT * FROM face ORDER BY `time` DESC';
+    var sql1 = 'select count(*) from face';
+    var sql2 = 'select count(*) from face where sex_category="Male"';
+    var sql3 = 'select count(*) from face where sex_category="Female"';
+    var sql4 = 'select count(*) from face where mask_state=1';
+    var sql5 = 'select count(*) from face where mask_state=0';
+    re = [];
+    connection.query(sql2,function (err, result) {
             if(err){
               console.log('[SELECT ERROR] - ',err.message);
               return;
             }
-           // re1=result[result.length-1];
            re1=result
-           res.json(re1);
+           re.push(re1);
+           connection.query(sql3,function (err, result) {
+              if(err){
+                console.log('[SELECT ERROR] - ',err.message);
+                return;
+              }
+             re2=result
+             re.push(re2);
+             connection.query(sql4,function (err, result) {
+                if(err){
+                  console.log('[SELECT ERROR] - ',err.message);
+                  return;
+                }
+               re3=result
+               re.push(re3);
+             
+               res.json(re);
+             });
+          });
     });
     //connection.end();    
 });

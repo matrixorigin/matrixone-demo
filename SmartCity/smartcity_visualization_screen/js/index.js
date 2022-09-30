@@ -1,6 +1,5 @@
 //后端传回的数据
-//falldowndata
-
+//falldown，face，vehicle，smokefire，well，multiobject
 // 车辆监测模块
 // 柱状图2
 (function () {
@@ -108,75 +107,83 @@
 })();
 
 // 人员性别分布模块
+//性别分布数据：接收后台传回的男性和女性人数设置全局变量。每10秒刷新echart饼状图
 (function () {
     // 1 实例化对象
     var myChart = echarts.init(document.querySelector('.pie .chart'));
     // 2 指定配置
     var option = {
-        color: ["#065aab", "#066eab", "#0682ab","#0686ab", "#06a0ab"],
-        tooltip: {
-          trigger: 'item'
-        },
-        legend: {
-          bottom: '0%',
-          itemWidth: 10,
-          itemHeight: 10,
-          textStyle: {
-            color: "rgba(255,255,255,.5)",
-            fontSize: "12"
-          }
-        },
-        series: [
-          {
-            name: '年龄分布',
-            type: 'pie',
-            radius: ['40%', '60%'], // [内圆半径，外圆半径]
-            center: ["30%", "45%"],
-            avoidLabelOverlap: false,
-            label: {
-              show: false,
-              position: 'center'
-            },
-            labelLine: {
-              show: false
-            },
-            data: [
-              { value: 1, name: '20岁以下' },
-              { value: 4, name: '20-29岁' },
-              { value: 2, name: '30-39岁' },
-              { value: 2, name: '40-49岁' },
-              { value: 1, name: '50岁以上' }
-            ]
+      color: ["#065aab", "#066eab", "#0682ab","#0686ab", "#06a0ab"],
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        bottom: '0%',
+        itemWidth: 10,
+        itemHeight: 10,
+        textStyle: {
+          color: "rgba(255,255,255,.5)",
+          fontSize: "12"
+        }
+      },
+      series: [
+        {
+          name: '年龄分布',
+          type: 'pie',
+          radius: ['40%', '60%'], // [内圆半径，外圆半径]
+          center: ["30%", "45%"],
+          avoidLabelOverlap: false,
+          label: {
+            show: false,
+            position: 'center'
           },
-          {
-            name: '性别分布',
-            type: 'pie',
-            color: ["lightblue", "pink"],
-            radius: ['0%', '60%'], // [内圆半径，外圆半径]
-            center: ["70%", "45%"],
-            avoidLabelOverlap: false,
-            label: {
-              show: false,
-              position: 'center'
-            },
-            labelLine: {
-              show: false
-            },
-            data: [
-              { value: 2250, name: '男' },
-              { value: 1000, name: '女' }
-            ]
-          }
-        ]
-      };
+          labelLine: {
+            show: false
+          },
+          data: [
+            { value: 1, name: '20岁以下' },
+            { value: 4, name: '20-29岁' },
+            { value: 2, name: '30-39岁' },
+            { value: 2, name: '40-49岁' },
+            { value: 1, name: '50岁以上' }
+          ]
+        },
+        {
+          name: '性别分布',
+          type: 'pie',
+          color: ["lightblue", "pink"],
+          radius: ['0%', '60%'], // [内圆半径，外圆半径]
+          center: ["70%", "45%"],
+          avoidLabelOverlap: false,
+          label: {
+            show: false,
+            position: 'center'
+          },
+          labelLine: {
+            show: false
+          },
+          data: [
+            { value: 1000, name: '男' },
+            { value: 1000, name: '女' }
+          ]
+        }
+      ]
+    };
     // 3 配置给实例对象
     myChart.setOption(option);
+    setInterval(function () {
+      //console.log(option['series'])
+      option['series'][1]['data'][0]['value'] = window.male_num;
+      option['series'][1]['data'][1]['value'] = window.female_num;
+      myChart.setOption(option);
+    }, 10000);
     // 4 大小自适应
     window.addEventListener('resize', function(){
         myChart.resize();
     })
 })();
 // 口罩佩戴情况模块
+// 口罩佩戴人数数据：接收后台传回的佩戴口罩和未佩戴口罩人数设置全局变量。每10秒刷新echart南丁格尔玫瑰图
 (function () {
     var myChart = echarts.init(document.querySelector('.pie2 .chart'));
     var option = {
@@ -223,6 +230,13 @@
         ]
       };
       myChart.setOption(option);
+      setInterval(function () {
+        //console.log(option['series'][0]['data'][0]['value'])
+        option['series'][0]['data'][0]['value'] = window.with_mask_num;
+        option['series'][0]['data'][1]['value'] = window.without_mask_num;
+        //console.log(option1)
+        myChart.setOption(option);
+      }, 10000);
       window.addEventListener('resize', function(){
         myChart.resize();
     })
