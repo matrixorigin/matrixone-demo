@@ -18,9 +18,11 @@
 
 ## 页面展示及功能介绍
 ![](./images/screen_example1.jpg)
+
 图1 页面展示
 
 ![](./images/screen_example2.jpg)
+
 图2 回传图片展示
 
 ①	设备数量监测模块
