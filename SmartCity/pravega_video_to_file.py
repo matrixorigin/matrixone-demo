@@ -56,7 +56,7 @@ def main():
 
     logging.basicConfig(level=args.log_level)
     logging.info('args=%s' % str(args))
-    '''
+
     # Set GStreamer plugin path.
     script_dir = os.path.dirname(os.path.abspath(__file__))
     pravega_plugin_dir = os.path.join(
@@ -73,7 +73,7 @@ def main():
     if not 'GST_DEBUG' in os.environ:
         os.environ['GST_DEBUG'] = 'pravegasrc:DEBUG,python:LOG,identity:TRACE'
         logging.info('GST_DEBUG=%s' % os.environ['GST_DEBUG'])
-    '''
+
     # Standard GStreamer initialization.
     Gst.init(None)
     logging.info(Gst.version_string())
