@@ -1,10 +1,10 @@
 # MatrixOne数据库读取及智慧园区可视化大屏展示
 
-<a href="https://github.com/matrixorigin/matrixone-demo/tree/models/SmartCity/smartcity_visualization_screen/README.md">
+<a href="https://github.com/BUPT-NingXinyu/matrixone-samples/tree/main/SmartCity/smartcity_visualization_screen/README.md">
   <b>English</b>
 </a>
   <b>||</b>
-<a href="https://github.com/matrixorigin/matrixone-demo/tree/models/SmartCity/smartcity_visualization_screen/README_CN.md">
+<a href="https://github.com/BUPT-NingXinyu/matrixone-samples/tree/main/SmartCity/smartcity_visualization_screen/README_CN.md">
   <b>简体中文</b>
 </a>
 
@@ -33,37 +33,37 @@
 
 图2 回传图片展示
 
-①	设备数量监测模块
+1.	设备数量监测模块
 
 显示园区中设备总数、运行设备数及异常设备数。❎目前为静态模块。
 
-②	车辆检测模块
+2.	车辆检测模块
 
 显示园区中登记车辆数及现有车辆数。采用echart组件中的柱状图进行自定义配置以显示园区中剩余车位容量。❎目前为静态模块。
 
-③	性别年龄监测模块
+3.	性别年龄监测模块
 
 显示对人脸检测时记录下的年龄和性别结果。使用echart组件中的饼形图分别显示人员年龄和性别比例。
 
 ✅后端交互方式：查询人脸信息表中不同年龄段及不同性别条目数量并返回。
 
-④	人流量监控模块
+4.	人流量监控模块
 
 ✅显示今日园区人流量及当前园区内剩余人数。❎下方使用echart显示园区随时间而变化的人流量折线图，其中蓝色线条表示入场人流量，绿色线条显示出场人流量。
 
-⑤	告警模块
+5.	告警模块
 
 显示对烟火和异常井盖的告警。正常状态下为绿色字体，文字内容为“正常”；异常状态下为红色字体，文字内容为“告警”。点击“告警”二字，在屏幕中间显示异常处摄像头存储的图片。
 
 ✅后端交互方式：对于烟火告警，查询烟火信息表中按时间排列的最后一条数据返回给前端页面，读取该数据中environment字段存储的字符串信息，对字符串做截断读取烟火判定的置信度。如果置信度大于0.5则显示告警；对于井盖告警，按时间排序查询井盖检测信息表，如果最近的告警数据时间小于2000秒，则在前端显示告警。
 
-⑥	工服安全帽佩戴模块
+6.	工服安全帽佩戴模块
 
 显示摔倒检测告警，该部分与告警模块运行逻辑相同。使用echart柱状图显示工服安全帽佩戴比例。
 
 ✅后端交互方式：查询摔倒检测表，按照时间排序返回最后一条数据，如果该数据时间与当前时间间隔小于2000秒则显示告警。工服安全帽检测为静态模块。
 
-⑦	口罩佩戴模块
+7.	口罩佩戴模块
 
 使用echart南丁格尔玫瑰图显示口罩佩戴情况。
 

@@ -1,10 +1,10 @@
 # MatrixOne Database Reading and Visual Display
 
-<a href="https://github.com/matrixorigin/matrixone-demo/tree/models/SmartCity/smartcity_visualization_screen/README.md">
+<a href="https://github.com/BUPT-NingXinyu/matrixone-samples/tree/main/SmartCity/smartcity_visualization_screen/README.md">
   <b>English</b>
 </a>
   <b>||</b>
-<a href="https://github.com/matrixorigin/matrixone-demo/tree/models/SmartCity/smartcity_visualization_screen/README_CN.md">
+<a href="https://github.com/BUPT-NingXinyu/matrixone-samples/tree/main/SmartCity/smartcity_visualization_screen/README_CN.md">
   <b>简体中文</b>
 </a>
 
@@ -26,9 +26,9 @@ For functional module design. The front page includes 7 functional modules:
 Content
 ========
 
-* [Page display and introduction](#Page display and introduction)
-* [MatrixOne installation and startup of MySQL service](#MatrixOne installation and startup of MySQL service)
-* [nodejs安装以完成前后端交互](#nodejs安装以完成前后端交互)
+* [Page display and introduction](#Page-display-and-introduction)
+* [MatrixOne installation and startup of MySQL service](#MatrixOne-installation-and-startup-of-MySQL-service)
+* [Install nodejs](#Install-nodejs)
 
 ## Page display and introduction
 
@@ -42,25 +42,29 @@ After reading the image data from MatrixOne, the front page displays the followi
 
 The specific information of the front-end page module is as follows:
 
-① Equipment quantity monitoring module
+
+1. Equipment quantity monitoring module
 
 Displays the total number of devices, the number of operating devices and the number of abnormal devices in the smart park. 
 
 ❎It is currently a static module.
 
-② Vehicle monitoring module
+
+2. Vehicle monitoring module
 
 Display the number of registered vehicles and existing vehicles in the park. The echart histogram component is used to display the remaining parking space capacity in the park. 
 
 ❎It is currently a static module.
 
-③ Gender and age module
+
+3. Gender and age module
 
 Displays the age and gender results recorded during face detection. Use the pie chart in the echart component to display the age and sex ratio of personnel respectively.
 
 ✅MatrixOne MySQL interaction mode: query the number of entries of different ages and genders in the face information table and return.
 
-④ Pedestrian flow monitoring module
+
+4. Pedestrian flow monitoring module
 
 Display the number of people in the park today and the remaining number of people in the current park.
 
@@ -68,19 +72,22 @@ The lower part uses echart to display the broken line chart of people flow in th
 
 ✅MatrixOne MySQL interaction mode: query the number of entries of people.
 
-⑤ Alarm module
+
+5. Alarm module
 
 Display alarms for fireworks and abnormal manhole covers. Under normal conditions, the font is green, and the text content is "normal"; Under abnormal conditions, it is in red font and the text content is "alarm". Click the word "alarm" to display the image stored by the camera at the abnormal location in the middle of the screen.
 
 ✅MatrixOne MySQL interaction mode: For pyrotechnic alarm, query the last data in the pyrotechnic information table sorted by time and return it to the front-end page, read the string information stored in the environment field of the data, and truncate the string to read the confidence of pyrotechnic judgment. If the confidence is greater than 0.5, an alarm is displayed; For manhole cover alarms, query the manhole cover detection information table in chronological order. If the latest alarm data time is less than 2000 seconds, the alarm will be displayed on the front end.
 
-⑥ Work clothes helmet wearing module
+
+6. Work clothes helmet wearing module
 
 Display the fall detection alarm, which is the same as the operation logic of the alarm module. Use the echart histogram to display the wearing proportion of work clothes and helmets.
 
 ✅MatrixOne MySQL interaction mode: Query the fall detection table and return the last data sorted by time. If the time interval between this data and the current time is less than 2000 seconds, an alarm will be displayed. The work clothes and safety helmets are detected as static modules.
 
-⑦ Mask wearing module
+
+7. Mask wearing module
 
 Use the echart Nightingale rose chart to display the wearing condition of the mask.
 
