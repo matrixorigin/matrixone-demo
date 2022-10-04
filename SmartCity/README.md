@@ -244,6 +244,13 @@ cd matrixone/
 cd pravega/
 ./gradlew startStandalone
 ```
+Create the Matrixone database scheme.
+```sql
+create database park if not exists;
+use park;
+```
+> if you want to clear all the data that Matrixone stored, just delete the folder `store`.
+> 
 ### Plugins Checkout
 ```bash
 cd SmartCity/
@@ -261,9 +268,12 @@ python video_file_to_pravega.py \
 python pravega_video_to_cv.py
 ```
 ### Matrixone Analysis
+You can use the MySQL command-line client to connect to MatrixOne server. The connection string is the same format as MySQL accepts. You need to provide a user name and a password.  
+Use the built-in test account for example.
 ```bash
 mysql -h 127.0.0.1 -P 6001 -udump -p111
 ```
+Then analysis data with sql sentence.
 ### Frontend Display
 
 
