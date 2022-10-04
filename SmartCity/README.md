@@ -275,7 +275,11 @@ mysql -h 127.0.0.1 -P 6001 -udump -p111
 ```
 Then analysis data with sql sentence.
 ### Frontend Display
+A visualization case looks like this.
 
+![](./smartcity_visualization_screen/images/screen_example1.jpg)
+
+See README in `smartcity_visualization_screen` folder for more details.
 
 ## Contributors
 <!-- readme: contributors -start -->
