@@ -238,7 +238,7 @@ This demo take standalone mode as example. You can also extend it to multiple se
 Lanch Matrixone, Pravega first.
 ```bash
 cd matrixone/
-./mo-service -cfg ./etc/cn-standalone-test.toml
+./mo-service -launch etc/launch-tae-logservice/launch.toml
 ```
 ```bash
 cd pravega/
@@ -246,7 +246,7 @@ cd pravega/
 ```
 Create the Matrixone database scheme.
 ```sql
-create database park if not exists;
+create database park;
 use park;
 ```
 > if you want to clear all the data that Matrixone stored, just delete the folder `store`.

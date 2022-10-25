@@ -87,10 +87,10 @@ def test_smokefire(img_org, CLASSIFIER,counter,iscuda,db):
                     json_smoke = {"smoke": smoke_conf}
                     json_people.append(json_smoke)
                 print(json_people)
-                byte_data = cv2.imencode('.jpg', result_frame)[1].tobytes()
+                byte_data = cv2.imencode('.jpg', img)[1].tobytes()
                 base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
                 base="data:image/jpg;base64,"+str(base64_str)
-                write_db_data(json_people, frame_count, str(base64_str), db)
+                write_db_data(json_people, counter, str(base64_str), db)
                 # write_json(json_people, save_dir + str(frame_count).zfill(5) + '.json', frame_count)
              
                 
