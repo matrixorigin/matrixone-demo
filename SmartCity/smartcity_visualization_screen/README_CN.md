@@ -150,6 +150,12 @@ npm install express
 npm install mysql
 ```
 
+启用服务器端应用：
+
+```
+node connect_matrixone_mysql_server.js
+```
+
 ### 3. 客户端：
 
 客户端代码对应 ./js/connect_matrixone_mysql_client.js

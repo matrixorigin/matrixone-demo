@@ -1,8 +1,4 @@
-//本案例对应数据库6个表，因此写了六个请求数据的函数。
-
-//表名称smokefire, falldown
-
-window.falldown_data;
+//本案例对应数据库6个表，因此写了六个请求数据的函数。每个函数中url代表server端地址，使用时需要根据实际情况进行修改。
 
 //mysql_read_falldown：摔倒数据读取函数，读取falldown表中最近一条数据，如果该数据与当前时间间隔小于2000秒则显示告警，否则显示正常。
 
@@ -10,7 +6,7 @@ function mysql_read_falldown() {
     b=$.ajax({
     type:'get', //请求方式
     //MatrixONE MySQL地址
-    url:'http://10.112.89.158:3000/falldown',  //请求地址,需要根据自己服务器ip地址来替换
+    url:'http://10.112.89.158:4455/falldown',  //请求地址,需要根据自己服务器ip地址来替换
     //MySQL地址
     //url:'http://192.168.194.94:3001/falldown',
     success:function(result) {  //请求成功以后函数被调用  response为服务器返回数据 该方法内部会将json字符串转为json对象
@@ -21,8 +17,9 @@ function mysql_read_falldown() {
         // console.log(myDate.getTime());
         // console.log(myDate.getTime()/1000);
         // console.log(result[0].time);
-        console.log(myDate.getTime()/1000-result[0].time);
+        //console.log(myDate.getTime()/1000-result[0].time);
         fall_warning = document.getElementById("falldown");
+        //if(myDate.getTime()/1000-result[0].time<2000){
         if(myDate.getTime()/1000-result[0].time<2000){
             fall_warning.style="color:rgb(253, 88, 88)";
             fall_warning.innerText="告警";
@@ -31,21 +28,22 @@ function mysql_read_falldown() {
             fall_warning.onclick = function () {
                 //alert("警告");  //替换文本
                 var img = document.getElementById("outimg");
-                //img.src=result[0].raw; //base64
+                img.src=result[0].raw; //base64
                 //二进制
                 // const objectURL = URL.createObjectURL(result[0].raw);
                 // img.src=objectURL;
 
                 // const binaryData = [];
                 // binaryData.push(result[0].raw);
-                // url = window.URL.createObjectURL(new Blob(binaryData,{type:'application/pdf;chartset=UTF-8'}));
+                // url = window.URL.createObjectURL(new Blob(binaryData,{type:'image/jpg'}));
+                // console.log(url)
                 // img.src=url;
 
                 // const buffer = new Buffer(result[0].raw, 'binary');
                 // img.src = 'data: image/'+ getImageType(fileName) +';base64,' + buffer.toString('base64');
-                console.log(result[0].raw)
-                const base64 = blobToDataURI(result[0].raw);
-                img.src = 'data: image/jpg;base64,' + String(base64);
+                // console.log(result[0].raw)
+                // const base64 = blobToDataURI(result[0].raw);
+                // img.src = 'data: image/jpg;base64,' + String(base64);
 
             }
         }else{
@@ -57,7 +55,7 @@ function mysql_read_falldown() {
     console.log(xhr);
             }
           });
-setTimeout("mysql_read_falldown()", 60000);
+setTimeout("mysql_read_falldown()", 5000);
 }
 //二进制转base64
 // function blobToDataURI(blob, callback) {
@@ -258,8 +256,8 @@ function mysql_read_vehicle() {
 setTimeout("mysql_read_vehicle()", 60000);
 }
 mysql_read_falldown();
-mysql_read_face();
-mysql_read_well();
-mysql_read_multiobject();
-mysql_read_smokefire();
-mysql_read_vehicle();
+//mysql_read_face();
+//mysql_read_well();
+//mysql_read_multiobject();
+//mysql_read_smokefire();
+//mysql_read_vehicle();
