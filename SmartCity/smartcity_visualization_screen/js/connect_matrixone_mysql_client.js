@@ -6,7 +6,7 @@ function mysql_read_falldown() {
     b=$.ajax({
     type:'get', //请求方式
     //MatrixONE MySQL地址
-    url:'http://10.112.89.158:4455/falldown',  //请求地址,需要根据自己服务器ip地址来替换
+    url:'http://10.112.89.158:3000/falldown',  //请求地址,需要根据自己服务器ip地址来替换
     //MySQL地址
     //url:'http://192.168.194.94:3001/falldown',
     success:function(result) {  //请求成功以后函数被调用  response为服务器返回数据 该方法内部会将json字符串转为json对象
@@ -256,8 +256,8 @@ function mysql_read_vehicle() {
 setTimeout("mysql_read_vehicle()", 60000);
 }
 mysql_read_falldown();
-//mysql_read_face();
-//mysql_read_well();
-//mysql_read_multiobject();
-//mysql_read_smokefire();
-//mysql_read_vehicle();
+mysql_read_face();
+mysql_read_well();
+mysql_read_multiobject();
+mysql_read_smokefire();
+mysql_read_vehicle();
