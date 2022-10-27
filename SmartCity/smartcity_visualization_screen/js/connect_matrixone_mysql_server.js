@@ -29,13 +29,19 @@ ap_p.get('/falldown',function(req,res){           //配置接口api
      connection.connect();
     var  sql = 'SELECT * FROM falldown ORDER BY `time` DESC';
     connection.query(sql,function (err, result) {
-            if(err){
-              console.log('[SELECT ERROR] - ',err.message);
-              return;
-            }
-           // re1=result[result.length-1];
-           re1=result
-           res.json(re1);
+          if(err){
+            console.log('[SELECT ERROR] - ',err.message);
+            return;
+          }
+          // re1=result[result.length-1];
+          re1=result
+          // 如果传回的图像数据为buffer类型，先在server端将其转换为base64
+          if(Buffer.isBuffer(re1[0].raw)){
+            var buffer = new Buffer(re1[0].raw, 'binary');
+            re1[0].raw = 'data: image/jpg;base64,' + buffer.toString('base64');
+          }
+
+          res.json(re1);
     });
     //connection.end();    
 });

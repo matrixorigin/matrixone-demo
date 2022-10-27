@@ -174,6 +174,11 @@ Install the required modules:
 npm install express
 npm install mysql
 ```
+start server:
+
+```
+node connect_matrixone_mysql_server.js
+```
 
 ### 3. client:
 
