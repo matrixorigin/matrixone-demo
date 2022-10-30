@@ -88,13 +88,13 @@ def test_smokefire(img_org, CLASSIFIER,counter,iscuda,db):
                     json_people.append(json_smoke)
                 print(json_people)
                 byte_data = cv2.imencode('.jpg', img)[1].tobytes()
-                base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-                base="data:image/jpg;base64,"+str(base64_str)
-                write_db_data(json_people, counter, str(base64_str), db)
+                # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+                # base="data:image/jpg;base64,"+str(base64_str)
+                write_db_data(json_people, counter, byte_data, db)
                 # write_json(json_people, save_dir + str(frame_count).zfill(5) + '.json', frame_count)
              
                 
-def write_db_data(json_people, frame_count, base64_str, db):
+def write_db_data(json_people, frame_count, byte_data, db):
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     json_dict1 = {"camera_id": 1, "frame_id": frame_count, "time": time_str, "encoding_picture": base,
                   "environment": json_people}
@@ -102,5 +102,5 @@ def write_db_data(json_people, frame_count, base64_str, db):
     # 这里的person是个字典，可以在表格中加项目继续解析
     # encoding picture数据过长被省略
     cursor.execute('INSERT INTO smokefire(camera_id,frame_id,`time`,raw,environment) values(%s,%s,%s,%s,%s)',
-                   (json_dict1["camera_id"], json_dict1["frame_id"], json_dict1["time"], str(base64_str), str(json_dict1["environment"])))
+                   (json_dict1["camera_id"], json_dict1["frame_id"], json_dict1["time"], byte_data, str(json_dict1["environment"])))
     db.commit() # 务必commit，否则不会修改数据库

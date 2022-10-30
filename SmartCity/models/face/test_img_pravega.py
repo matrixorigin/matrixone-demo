@@ -162,8 +162,8 @@ def test_face(img_org, predictor,counter,BACKBONE, classifier,iscuda,db):
 
 
             byte_data = cv2.imencode('.jpg', img_save)[1].tobytes()
-            base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-            base="data:image/jpg;base64,"+str(base64_str)
+            # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+            # base="data:image/jpg;base64,"+str(base64_str)
 
             # sql insert
             cursor = db.cursor()
@@ -171,7 +171,7 @@ def test_face(img_org, predictor,counter,BACKBONE, classifier,iscuda,db):
             # encoding picture数据过长被省略
             time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
             cursor.execute('INSERT INTO face(camera_id,frame_id,`time`,raw,face_x1,face_y1,face_x2,face_y2,sex_category,sex_confidence,age_number,age_confidence,mask_state,mask_confidence,glasses_state,glasses_confidence) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)',
-                           (1, counter, time_str, +str(base64_str), json_person["face_x1"], json_person["face_y1"], json_person["face_x2"], json_person["face_y2"], json_person["sex"]["sex_category"], json_person["sex"]["sex_confidence"], json_person["age"]["number"], json_person["age"]["age_confidence"], json_person["mask"]["mask_state"], json_person["mask"]["mask_confidence"], json_person["glasses"]["glasses_state"], json_person["glasses"]["glasses_confidence"]))
+                           (1, counter, time_str, byte_data, json_person["face_x1"], json_person["face_y1"], json_person["face_x2"], json_person["face_y2"], json_person["sex"]["sex_category"], json_person["sex"]["sex_confidence"], json_person["age"]["number"], json_person["age"]["age_confidence"], json_person["mask"]["mask_state"], json_person["mask"]["mask_confidence"], json_person["glasses"]["glasses_state"], json_person["glasses"]["glasses_confidence"]))
             db.commit()  # 务必commit，否则不会修改数据库
 
                         #if if_end(count, i):

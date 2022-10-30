@@ -110,8 +110,8 @@ def test_falldown(frame,predictor,counter,fall_counter,f_c,bbo_cen,fall_judge,fa
                                     per_fc = outputs[0][per][4].item() * outputs[0][per][5].item()
 
                                     byte_data = cv2.imencode('.jpg', result_frame)[1].tobytes()
-                                    base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-                                    base="data:image/jpg;base64,"+str(base64_str)
+                                    # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+                                    # base="data:image/jpg;base64,"+str(base64_str)
                                     json_people=[]
                                     json_fall_person = {
                                         "person_x1":bbox_get[0].item(),"person_y1":bbox_get[1].item(),"person_x2":bbox_get[2].item(),"person_y2":bbox_get[3].item(),"person_confidence":per_fc,
@@ -119,13 +119,13 @@ def test_falldown(frame,predictor,counter,fall_counter,f_c,bbo_cen,fall_judge,fa
                                             {"start_time": counter/fps, "fall_confidence":per_fc }
                                     }
                                     json_people.append(json_fall_person)
-                                    json_dict1 = {"camera_id": 1, "frame_id": counter, "time": 3, "raw": str(base64_str), "person": json_people}
-                                    json_dict2={"frame_info":json_dict1}
-                                    result_name = "result" + str(fall_counter)
+                                    # json_dict1 = {"camera_id": 1, "frame_id": counter, "time": 3, "raw": str(base64_str), "person": json_people}
+                                    # json_dict2={"frame_info":json_dict1}
+                                    # result_name = "result" + str(fall_counter)
                                     
                                     json_db_data = {"camera_id": 1, "frame_id": counter, "time": time.time(), "raw": byte_data, "person": json_people}
 
-                                    # write_db_data(json_db_data,db)
+                                    write_db_data(json_db_data,db)
                                     # write_json_data(json_dict2, file_name=os.path.join(save_folder, result_name))
                             else:#之前已输出的人
                                 continue
