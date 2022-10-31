@@ -81,8 +81,8 @@ def test_manhole(frame,predictor,counter,well_counter,last_detect,judge,iscuda,d
                         last_detect = counter
                         f_c = outputs[0][per][4].item() * outputs[0][per][5].item()
                         byte_data = cv2.imencode('.jpg', result_frame)[1].tobytes()
-                        base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-                        base="data:image/jpg;base64,"+str(base64_str)
+                        # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+                        # base="data:image/jpg;base64,"+str(base64_str)
 
                         json_manhole = {
                             "manhole_cover_x1":bbox_get[0].item(),"manhole_cover_y1":bbox_get[1].item(),"manhole_cover_x2":bbox_get[2].item(),"manhole_cover_y2":bbox_get[3].item(),"manhole_cover_confidence":f_c,
@@ -91,16 +91,15 @@ def test_manhole(frame,predictor,counter,well_counter,last_detect,judge,iscuda,d
             if judge == 1:
                 json_dict1 = {"manhole_cover":json_manholes}
                 json_dict2 = {"camera_id": 1, "frame_id": counter,
-                                "time": 3, "raw": str(base64_str), "environment": json_dict1}
+                              "time": 3, "raw": byte_data, "environment": json_dict1}
                 json_dict3={"frame_info":json_dict2}
                 result_name="result"+str(well_counter)
                 well_counter = well_counter + 1
-                # cursor = db.cursor()
+                cursor = db.cursor()
                 # 这里的person是个字典，可以在表格中加项目继续解析
-                # encoding picture数据过长被省略
-                # cursor.execute('INSERT INTO well(camera_id,frame_id,`time`,raw,manhole_cover) values(%s,%s,%s,%s,%s)',
-                #                (json_dict2["camera_id"], json_dict2["frame_id"], json_dict2["time"], json_dict2["raw"], str(json_dict2["environment"]["manhole_cover"])))
-                # db.commit()  # 务必commit，否则不会修改数据库
+                cursor.execute('INSERT INTO well(camera_id,frame_id,`time`,raw,manhole_cover) values(%s,%s,%s,%s,%s)',
+                               (json_dict2["camera_id"], json_dict2["frame_id"], json_dict2["time"], json_dict2["raw"], str(json_dict2["environment"]["manhole_cover"])))
+                db.commit()  # 务必commit，否则不会修改数据库
                 
                 # write_json_data(json_dict3, file_name=os.path.join(save_folder, result_name))
                 judge = 0

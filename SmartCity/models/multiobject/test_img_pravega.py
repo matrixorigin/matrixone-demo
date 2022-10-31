@@ -147,10 +147,10 @@ def test_multiobject(frame, predictor, counter, assets_counter, person_counter, 
             # 这里的person是个字典，可以在表格中加项目继续解析
             # encoding picture数据过长被省略
             byte_data = cv2.imencode('.jpg', result_frame)[1].tobytes()
-            base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-            base="data:image/jpg;base64,"+str(base64_str)
+            # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+            # base="data:image/jpg;base64,"+str(base64_str)
             cursor.execute('INSERT INTO multiobject(camera_id,frame_id,`time`,raw,person,environment) values(%s,%s,%s,%s,%s,%s)',
-                            (json_dict2["camera_id"], json_dict2["frame_id"], json_dict2["time"], str(base64_str), str(json_dict2["person"]), str(json_dict2["environment"])))
+                           (json_dict2["camera_id"], json_dict2["frame_id"], json_dict2["time"], byte_data, str(json_dict2["person"]), str(json_dict2["environment"])))
             db.commit()  # 务必commit，否则不会修改数据库
 
             judge_person = 0

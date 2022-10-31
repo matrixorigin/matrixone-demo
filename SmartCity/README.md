@@ -264,9 +264,16 @@ python video_file_to_pravega.py \
 --source-uri path-to-mp4-video-file
 ```
 ### Model Detection
+Modify the plugin file `plugins/python/example_transform_cv.py`.
+In line 25:
+```python
+model_dir = "the path to your 'models' folder"
+```
+Then run the model detection.
 ```bash
 python pravega_video_to_cv.py
 ```
+The program continuously detects incoming streaming video.
 ### Matrixone Analysis
 You can use the MySQL command-line client to connect to MatrixOne server. The connection string is the same format as MySQL accepts. You need to provide a user name and a password.  
 Use the built-in test account for example.
