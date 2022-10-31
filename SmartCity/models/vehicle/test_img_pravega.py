@@ -460,12 +460,12 @@ class Predictor(object):
         }
         cursor = db.cursor()
         byte_data = cv2.imencode('.jpg', img)[1].tobytes()
-        base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
-        base="data:image/jpg;base64,"+str(base64_str)
+        # base64_str = base64.b64encode(byte_data).decode("ascii") #转换为base64
+        # base="data:image/jpg;base64,"+str(base64_str)
         # 这里的vehicle,license_plate是个列表，可以在表格中加项目继续解析
         # encoding picture数据过长被省略
         cursor.execute('INSERT INTO vehicle(camera_id,frame_id,`time`,raw,vehicle,license_plate) values(%s,%s,%s,%s,%s,%s)',
-                            (frame_info["camera_id"],frame_info["frame_id"],frame_info["time"],str(base64_str),"".join(frame_info["vehicle"]),"".join(frame_info["license_plate"])))
+                       (frame_info["camera_id"], frame_info["frame_id"], frame_info["time"], byte_data, "".join(frame_info["vehicle"]), "".join(frame_info["license_plate"])))
         db.commit() # 务必commit，否则不会修改数据库
         self.output_json = {"frame_info": frame_info}
         # print(self.output_json)

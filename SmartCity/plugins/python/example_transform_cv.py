@@ -21,7 +21,9 @@
 #
 
 import sys
-sys.path.append("/root/nxytest/plugins/python/")
+import os
+model_dir = "/root/nxytest/plugins/python/"
+sys.path.append(os.getcwd())
 from face.test_img_pravega import test_face
 from face.utils.load_models import load_face_models
 from falling.test_img_pravega import test_falldown, load_falldown_model
@@ -64,10 +66,10 @@ class ExampleTransform(GstBase.BaseTransform):
         self.iscuda=False
 
         # Face model
-        exp_file = "/root/nxytest/plugins/python/face/YOLOX/exps/example/custom/yolox_tiny.py"
-        ckpt = "/root/nxytest/plugins/python/face/YOLOX/YOLOX_outputs/yolox-tiny/best_ckpt.pth"
-        BACKBONE_RESUME_ROOT = '/root/nxytest/plugins/python/face/trained_models/backbone_ir50_asia.pth'
-        classifier_root = '/root/nxytest/plugins/python/face/trained_models/CLASSIFIER-B0-224-Epoch_170.pth'
+        exp_file = model_dir + "face/YOLOX/exps/example/custom/yolox_tiny.py"
+        ckpt = model_dir + "face/YOLOX/YOLOX_outputs/yolox-tiny/best_ckpt.pth"
+        BACKBONE_RESUME_ROOT = model_dir + 'face/trained_models/backbone_ir50_asia.pth'
+        classifier_root = model_dir + 'face/trained_models/CLASSIFIER-B0-224-Epoch_170.pth'
         self.face_predictor, self.BACKBONE, self.classifier = load_face_models(exp_file, ckpt, BACKBONE_RESUME_ROOT, classifier_root)
         # Falldown model
         self.counter=0
@@ -78,28 +80,28 @@ class ExampleTransform(GstBase.BaseTransform):
         self.fall_up_bound = np.zeros(20)
         self.detect_fall = np.zeros(20)
         self.bbo_all_num = -1
-        exp_file="/root/nxytest/plugins/python/falling/yolox_voc_s_down.py"
+        exp_file = model_dir + "falling/yolox_voc_s_down.py"
         self.falling_predictor=load_falldown_model(exp_file,self.iscuda)
         # Manhole model
         self.well_counter = 0#单位：个
         fps=30
         self.last_detect = -5*fps#单位：帧
         self.judge = 0
-        exp_file="/root/nxytest/plugins/python/manhole/yolox_voc_s_down.py"
+        exp_file = model_dir + "manhole/yolox_voc_s_down.py"
         self.manhole_predictor = load_manhole_model(exp_file, self.iscuda)
         # Multiobject model
         self.assets_counter=0
         self.person_counter=0
         self.last_assets_detect=0
         self.last_person_detect=0
-        exp_file = "/root/nxytest/plugins/python/multiobject/yolox_voc_s_p_c.py"
-        exp_dir = "/root/nxytest/plugins/python"
+        exp_file = model_dir + "multiobject/yolox_voc_s_p_c.py"
+        exp_dir = model_dir
         self.multiobject_predictor = load_multiobject_model(exp_file, exp_dir, self.iscuda)
         # Smokefire model
-        classfier_root='/root/nxytest/plugins/python/smokefire/model/CLASSIFIER-B0-224-Epoch_122.pth'
+        classfier_root = model_dir + 'smokefire/model/CLASSIFIER-B0-224-Epoch_122.pth'
         self.smokefire_predictor=load_smokefire_model(classfier_root,self.iscuda)
         # Vehicle model
-        exp_file = "/root/nxytest/plugins/python/multiobject/yolox_voc_s_p_c.py"
+        exp_file = model_dir + "multiobject/yolox_voc_s_p_c.py"
         self.vehicle_predictor = load_vehicle_model(exp_file, exp_dir, self.iscuda)
 
        # Initial database
